@@ -1,0 +1,42 @@
+[
+  {
+    "id": "EX-01",
+    "name": "CryptoExchange Alpha",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "EX-02",
+    "name": "CryptoExchange Beta",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "EX-03",
+    "name": "Kraken-like",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "EX-04",
+    "name": "Coinbase-like",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "EX-05",
+    "name": "Bitpanda-like",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "EX-06",
+    "name": "Binance-like",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "EX-07",
+    "name": "Relai-like",
+    "riskLevel": "HIGH"
+  },
+  {
+    "id": "EX-08",
+    "name": "Gate-like",
+    "riskLevel": "LOW"
+  }
+]

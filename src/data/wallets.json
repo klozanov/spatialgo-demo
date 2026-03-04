@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "W-0001",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-030",
+    "address": "0x7a171ac826a6fce48478dcb74f21345d2cce8038"
+  },
+  {
+    "id": "W-0002",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-004",
+    "address": "0x9d5e0853964b50af03b971722f244f58d669cbee"
+  },
+  {
+    "id": "W-0003",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-008",
+    "address": "0x72a077021721a278f64f7fd633dbdde131ca3766"
+  },
+  {
+    "id": "W-0004",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-005",
+    "address": "0xd58e72e310275dff6c15c0c8e9df469611a11f51"
+  },
+  {
+    "id": "W-0005",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-028",
+    "address": "0x5227c3712da86a78c49ea20e32684b27b95e9093"
+  },
+  {
+    "id": "W-0006",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-009",
+    "address": "0x334896a68f812d810a485ed03241b4d419b1b673"
+  },
+  {
+    "id": "W-0007",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-025",
+    "address": "0xd4755d05ad7853c1f76eb97706ca828bca038581"
+  },
+  {
+    "id": "W-0008",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-020",
+    "address": "0xdbad3c681d06bd2aa399dac946dc59c0996daeee"
+  },
+  {
+    "id": "W-0009",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-017",
+    "address": "0xf529a279764017f2ed6cfc7403d75e173e4eaede"
+  },
+  {
+    "id": "W-0010",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-024",
+    "address": "0xfe878f78e2978aa2447c462ddaed16dc0cf0b9cd"
+  },
+  {
+    "id": "W-0011",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-016",
+    "address": "0x78df0cac5e40c02d4e518ca6eaac8d82f01b7210"
+  },
+  {
+    "id": "W-0012",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-007",
+    "address": "0x0474f36e8b5359309cc6273931bdb2a0df3dbe4d"
+  },
+  {
+    "id": "W-0013",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-024",
+    "address": "0x8fed8a728e7eca0fa5f6b8a880627df7ffe0297c"
+  },
+  {
+    "id": "W-0014",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-010",
+    "address": "0xbfbdabe898736a3566f893697b590481194f309f"
+  },
+  {
+    "id": "W-0015",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-015",
+    "address": "0xa518f32cf21449273d7cee9d9136682575250def"
+  },
+  {
+    "id": "W-0016",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-002",
+    "address": "0x799e2786d3748421599e3e9c8fe21da80270815f"
+  },
+  {
+    "id": "W-0017",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-030",
+    "address": "0x85df2fbdaa35adf9c1e2a8a3c0ed16bfe16849ef"
+  },
+  {
+    "id": "W-0018",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-001",
+    "address": "0x7590d273e34f98dff7e4c6428da8099f4efbacea"
+  },
+  {
+    "id": "W-0019",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-023",
+    "address": "0x7c7d1afcc4f14a3e3e04d42f8ac2acaf127972d3"
+  },
+  {
+    "id": "W-0020",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-015",
+    "address": "0x5901a19bbd47d5552c7f47e8e80e952eb9d8e96c"
+  },
+  {
+    "id": "W-0021",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-004",
+    "address": "0x7cb990c801f97b7684319e1b429ad564b858f9a3"
+  },
+  {
+    "id": "W-0022",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-003",
+    "address": "0x47cb2c083eb8cb37f0a72e9d34119f3374cebd4d"
+  },
+  {
+    "id": "W-0023",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-027",
+    "address": "0xfd81b6ee7b3bb1c863e2601a7462667a40844853"
+  },
+  {
+    "id": "W-0024",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-005",
+    "address": "0x0b7a05814d32feb3e719e01fcd3fe22a4248ac9e"
+  },
+  {
+    "id": "W-0025",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-004",
+    "address": "0x36de7daecd3ada8b4f2222d3b41a3dbd199b364f"
+  },
+  {
+    "id": "W-0026",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-028",
+    "address": "0x3bb387d080589ab054c24026cdea5b9a2145128e"
+  },
+  {
+    "id": "W-0027",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-016",
+    "address": "0xed863bd39f917c10696489a30fd54c7b2c1d0e2a"
+  },
+  {
+    "id": "W-0028",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-019",
+    "address": "0xcd93c0a5eb2d37dc2c9a7a5236bb4734865425fe"
+  },
+  {
+    "id": "W-0029",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-022",
+    "address": "0xaa4e2fe981b29ee11b922ce1e6af41e3a2517ee5"
+  },
+  {
+    "id": "W-0030",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-012",
+    "address": "0x9cda1a2a3c984a24b9c429ca42db0b956af67442"
+  },
+  {
+    "id": "W-0031",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-028",
+    "address": "0x31a4c4555e1db7e9e779f6bee9cd56481fb33925"
+  },
+  {
+    "id": "W-0032",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-015",
+    "address": "0x4d27eb0d1cb7c2b70a3a4419f4fe020864d39793"
+  },
+  {
+    "id": "W-0033",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-008",
+    "address": "0xde23f0749d0b7d52b20cf1cb80b2b73a41ba5ef5"
+  },
+  {
+    "id": "W-0034",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-003",
+    "address": "0xe196161a9cf8169b1a83bdceca5ffb82d2d59a32"
+  },
+  {
+    "id": "W-0035",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-022",
+    "address": "0x99ed5ebe1bd812cb504e1427bbc14ebbe24bca87"
+  },
+  {
+    "id": "W-0036",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-001",
+    "address": "0x5fc388e69f6342e5e2ab29955b73647f0bbe4229"
+  },
+  {
+    "id": "W-0037",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-023",
+    "address": "0xfdd24a2eeb454d134955a7b92868492545a10218"
+  },
+  {
+    "id": "W-0038",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-025",
+    "address": "0xd0f99f7c9e215edfe6a4aabc4b3a7e38e74319cd"
+  },
+  {
+    "id": "W-0039",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-028",
+    "address": "0x5aa65fef9f02ce76b119ff903d48bcb1c16b92ce"
+  },
+  {
+    "id": "W-0040",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-027",
+    "address": "0x343cbab46c1114afe44aa5c9af9f0ba3d90f871f"
+  },
+  {
+    "id": "W-0041",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-017",
+    "address": "0xc471360ead4d6df146afca5eab8f67897996fafb"
+  },
+  {
+    "id": "W-0042",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-010",
+    "address": "0x3ccb49192be8f6688437717713daf3405dff69a9"
+  },
+  {
+    "id": "W-0043",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-030",
+    "address": "0x2715d51cf591093a9ef4e863a5e850a965cda2c3"
+  },
+  {
+    "id": "W-0044",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-005",
+    "address": "0xfa708c7e8a908b713e95c939b774f4ebdf672eb2"
+  },
+  {
+    "id": "W-0045",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-002",
+    "address": "0x645ae36f2e1e4de1e90c80621db212f19d54dbce"
+  },
+  {
+    "id": "W-0046",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-013",
+    "address": "0x24b35c47009edc77eb48631d076231e171ce7614"
+  },
+  {
+    "id": "W-0047",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-008",
+    "address": "0xaa7947d9815df1bcadd49c5f7794e1dd4c786a2e"
+  },
+  {
+    "id": "W-0048",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-003",
+    "address": "0x618c1266f6a90663f76c7a9ceb98bfe3fa6bad17"
+  },
+  {
+    "id": "W-0049",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-001",
+    "address": "0x8d946a7c7fa8ffe5b54f511210d472406eb1ff00"
+  },
+  {
+    "id": "W-0050",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-001",
+    "address": "0x0890d5334768b8c2bce779212cccf1052fda3176"
+  },
+  {
+    "id": "W-0051",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-009",
+    "address": "0x12815a064c2957cac42b13d72aca08ef7bcd5c29"
+  },
+  {
+    "id": "W-0052",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-023",
+    "address": "0x2284c4cab3209eb83425ded302b2ac09dc275c54"
+  },
+  {
+    "id": "W-0053",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-010",
+    "address": "0x8f425d8d9f2b87f6e3490cacaead49a6fa5ca9f7"
+  },
+  {
+    "id": "W-0054",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-013",
+    "address": "0x8cb3650e6e92df49784dc2efcd1b237b51cad303"
+  },
+  {
+    "id": "W-0055",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-008",
+    "address": "0x7ebce4b0f39d234b9ae6fbf3eea29130a35755ad"
+  },
+  {
+    "id": "W-0056",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-008",
+    "address": "0xc55dc06edc0668235ba6e38facc3bbe5924a3793"
+  },
+  {
+    "id": "W-0057",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-012",
+    "address": "0x4cd4cd5f55f945ae1b0f46cfdfdef5207918795e"
+  },
+  {
+    "id": "W-0058",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-018",
+    "address": "0x338b1e6d3791e8b2e376bd54661b85a99834d184"
+  },
+  {
+    "id": "W-0059",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-008",
+    "address": "0x4a7cf48dce22c8befa02eb2c6d6f8a9a4fa113e0"
+  },
+  {
+    "id": "W-0060",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-030",
+    "address": "0x5ee0d649582b82b51c97d2306f247e00a3d4f27c"
+  },
+  {
+    "id": "W-0061",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-024",
+    "address": "0x33ab94c44205eb64de62343cbda4782790966c91"
+  },
+  {
+    "id": "W-0062",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-016",
+    "address": "0xc37f20ba4cdb5f20208611c9ddc24829264ac29d"
+  },
+  {
+    "id": "W-0063",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-002",
+    "address": "0x72d3e19530405fb85b4830ad8282feb1f5b58337"
+  },
+  {
+    "id": "W-0064",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-002",
+    "address": "0x071fbc451d7a7da82b31571c2e99a2e0b6997ebf"
+  },
+  {
+    "id": "W-0065",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-024",
+    "address": "0x740d07b0a0c9367df148217dbe234c21d4798aca"
+  },
+  {
+    "id": "W-0066",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-015",
+    "address": "0x872643435eead3b6e9e8325916a427bc19850ce7"
+  },
+  {
+    "id": "W-0067",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-015",
+    "address": "0x34301746cb282026e42a31e15dcf0cd5b6588e41"
+  },
+  {
+    "id": "W-0068",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-021",
+    "address": "0x9fdf128c4d670cbffbac850a7081fb75377817cb"
+  },
+  {
+    "id": "W-0069",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-006",
+    "address": "0x7ab0b46f95f121770f0a64a5a10443b2bc3a9a45"
+  },
+  {
+    "id": "W-0070",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-026",
+    "address": "0xfa5b75c99450c15a73f4a27ba52ae08672b8301c"
+  },
+  {
+    "id": "W-0071",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-024",
+    "address": "0xd5dfcbc3f75e2190a832a5c522af0d5d513a66d8"
+  },
+  {
+    "id": "W-0072",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-010",
+    "address": "0x731cf41b0d29f6306592f39cff82c5bcb5e18ee8"
+  },
+  {
+    "id": "W-0073",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-027",
+    "address": "0x81432bd71cdf7f92c143e556641d2d648a22cca8"
+  },
+  {
+    "id": "W-0074",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-030",
+    "address": "0x0d3d443339bd8cff158c4c1ca71f8b0a998f3749"
+  },
+  {
+    "id": "W-0075",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-025",
+    "address": "0xa8d26e6dfb1529c40566171e1b68bec307bfe5fb"
+  },
+  {
+    "id": "W-0076",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-006",
+    "address": "0x8290c1567768d00f4507898dcbe86e9c30b993f2"
+  },
+  {
+    "id": "W-0077",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-009",
+    "address": "0xa8896471ca40f98dcc16a7fb95593f485a27b79d"
+  },
+  {
+    "id": "W-0078",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-012",
+    "address": "0x89e3f12f63c9d1446ade4a52fa5a10e8655f24dd"
+  },
+  {
+    "id": "W-0079",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-014",
+    "address": "0xfc016b0a60077b943c952199ead4afb65c077460"
+  },
+  {
+    "id": "W-0080",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-004",
+    "address": "0xb1c8113013dec38f4609d384d33933f6686bd951"
+  },
+  {
+    "id": "W-0081",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-030",
+    "address": "0x6fa70023f422387e98e13519bad331045abe82ba"
+  },
+  {
+    "id": "W-0082",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-004",
+    "address": "0xcce8cfd534153dfe5cb04ff3de128a07a3d7fbc4"
+  },
+  {
+    "id": "W-0083",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-001",
+    "address": "0x5ff52fa7a817cc72eee2fea3f03cd10296eab17e"
+  },
+  {
+    "id": "W-0084",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-018",
+    "address": "0xfbe3370ab9b315f4d38663c6e6a3d13ee4f01df5"
+  },
+  {
+    "id": "W-0085",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-024",
+    "address": "0x43cacd78ca9e44d9a6669b45a3bfd9d030c41168"
+  },
+  {
+    "id": "W-0086",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-010",
+    "address": "0x841961be37c791ccda1086e7b669e52553c1d884"
+  },
+  {
+    "id": "W-0087",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-019",
+    "address": "0x80ae414a19fb2a7525dc2b76aab96f03be771ac3"
+  },
+  {
+    "id": "W-0088",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-009",
+    "address": "0x90bef196a2350266d36d240ea122158278dcecda"
+  },
+  {
+    "id": "W-0089",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-013",
+    "address": "0x30212b39929ecc0f574c949b04310c296b6d4557"
+  },
+  {
+    "id": "W-0090",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-007",
+    "address": "0x351e292836fab473926afea94bad50a77d8b4afe"
+  },
+  {
+    "id": "W-0091",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-012",
+    "address": "0x9f35284682200c618f4bc794e2cb0754e554fb17"
+  },
+  {
+    "id": "W-0092",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-008",
+    "address": "0x28b716bcfe11a3885ccb28c7cbbff04e57286455"
+  },
+  {
+    "id": "W-0093",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-020",
+    "address": "0x37da3fff65d071454141585c0926eff57d4585ae"
+  },
+  {
+    "id": "W-0094",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-008",
+    "address": "0xcc4306d435f132f40ddb1d7fcb3d48f729d86003"
+  },
+  {
+    "id": "W-0095",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-013",
+    "address": "0x6adb34d88db8c6df5bf89bc437e536ca15c024fd"
+  },
+  {
+    "id": "W-0096",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-003",
+    "address": "0x87b21cc915fe06961751b70528cbcc60229bb876"
+  },
+  {
+    "id": "W-0097",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-030",
+    "address": "0xc085d329a388ecf7aee0f382c77adb08792ca25f"
+  },
+  {
+    "id": "W-0098",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-012",
+    "address": "0x6856f67786767b4332f01fbaf8f58c741df1bc5e"
+  },
+  {
+    "id": "W-0099",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-023",
+    "address": "0xea006c3ab85878fab5fd6dbbc8e547387dc644f0"
+  },
+  {
+    "id": "W-0100",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-014",
+    "address": "0xf4af981c35168f3ea8bb8b0d3b659bafe2c9e45a"
+  },
+  {
+    "id": "W-0101",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-021",
+    "address": "0xc225a7aa98c8ebed550478265c332f10c23842c9"
+  },
+  {
+    "id": "W-0102",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-008",
+    "address": "0x9e44501bafe8e45ed9bf72e9bd849004b9f0ff90"
+  },
+  {
+    "id": "W-0103",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-026",
+    "address": "0x970b6ddc75cc782d7898d625493ee8f6a0410539"
+  },
+  {
+    "id": "W-0104",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-005",
+    "address": "0xe07240f6ad9fbe1a2418c2f568c037ce716e36fc"
+  },
+  {
+    "id": "W-0105",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-030",
+    "address": "0xa5138f96b1637da0583c701f4b275f2a11b434f7"
+  },
+  {
+    "id": "W-0106",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-018",
+    "address": "0xbe60cb481fe9f65bae8524e98be0c50b7a2c6f49"
+  },
+  {
+    "id": "W-0107",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-014",
+    "address": "0xa332145163f631cf81b7206f2e1bdb1812926337"
+  },
+  {
+    "id": "W-0108",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-007",
+    "address": "0x675d3bed355ca5ebaabdda76c8beec0190490976"
+  },
+  {
+    "id": "W-0109",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-001",
+    "address": "0x8431eb448b77892c62af5f391c21abdd370c191a"
+  },
+  {
+    "id": "W-0110",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-011",
+    "address": "0x741ce27d9c44a2f1c82cd44f6fc67728da23ddbb"
+  },
+  {
+    "id": "W-0111",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-011",
+    "address": "0xb095be4e176b42317490a39ef0a6668f40c18519"
+  },
+  {
+    "id": "W-0112",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-026",
+    "address": "0x81e02c8b309c7c3af256e0179afc50bbb97818c0"
+  },
+  {
+    "id": "W-0113",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-008",
+    "address": "0x4ac42c7d74d9ae4646494d45a235a40add9e8463"
+  },
+  {
+    "id": "W-0114",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-006",
+    "address": "0x087770b2f4fb5cff45671d08d76625efae7dc1ca"
+  },
+  {
+    "id": "W-0115",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-020",
+    "address": "0x13ee17c1c169ec99e5d914ee2354cdae05e6e28a"
+  },
+  {
+    "id": "W-0116",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-023",
+    "address": "0x323eb2c5cc15a45451d99e95346080eff0f76fed"
+  },
+  {
+    "id": "W-0117",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-003",
+    "address": "0x07861541b1419a213d5595eb129abc2d29f438ad"
+  },
+  {
+    "id": "W-0118",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-023",
+    "address": "0x6132f9da8b4fff5796030e36dd1ab60698299a03"
+  },
+  {
+    "id": "W-0119",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-011",
+    "address": "0xc056aaff14f4eaed19a06ab2480ac5c539a18d2f"
+  },
+  {
+    "id": "W-0120",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-012",
+    "address": "0xe96953b162e0f46af9a43461ec30912ae139096a"
+  },
+  {
+    "id": "W-0121",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-007",
+    "address": "0x98ae384583036ba8497529ae140f13c12dc5eb9a"
+  },
+  {
+    "id": "W-0122",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-023",
+    "address": "0x2e42e3e9ef7748bc5aaef02f3bfe59b43c3a29ec"
+  },
+  {
+    "id": "W-0123",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-008",
+    "address": "0x75fc2a6dda752f3ea3e59c23caf1264044e9ce66"
+  },
+  {
+    "id": "W-0124",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-010",
+    "address": "0x9db20c491b10b3907dcacccd65f46cbd49440204"
+  },
+  {
+    "id": "W-0125",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-022",
+    "address": "0xd424ded5edecb75d0f78db11fb3f248e227f291a"
+  },
+  {
+    "id": "W-0126",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-016",
+    "address": "0xefadb9951981f51909f2428848880354eb587f51"
+  },
+  {
+    "id": "W-0127",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-003",
+    "address": "0x44fdc7e56b18315ecf9f7ccf84d09eca13bd8a88"
+  },
+  {
+    "id": "W-0128",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-009",
+    "address": "0xce76a5a0020d33eb7986102163324c53589e2e8d"
+  },
+  {
+    "id": "W-0129",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-009",
+    "address": "0x5281cca1885e2f6c5f34d63e831228e0f401c84a"
+  },
+  {
+    "id": "W-0130",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-019",
+    "address": "0x0ffdc270cf3ba9c12ba2e9651c69c3bf2e641607"
+  },
+  {
+    "id": "W-0131",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-013",
+    "address": "0x29fe01a1a1c36e47214f0f17405193e5233f726d"
+  },
+  {
+    "id": "W-0132",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-026",
+    "address": "0xca34a615a2384d5b5e7143c50f200529df4648ed"
+  },
+  {
+    "id": "W-0133",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-006",
+    "address": "0x15f29bd07633b7e681634ff5511b96d8ae131550"
+  },
+  {
+    "id": "W-0134",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-017",
+    "address": "0x327ead6a73a737d6c72ff1d46e5cb4e6b86a4118"
+  },
+  {
+    "id": "W-0135",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-004",
+    "address": "0xeed5a795572df6fe80d77ad740d11f1dcf3ef720"
+  },
+  {
+    "id": "W-0136",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-007",
+    "address": "0x4b9720f95e0ee4c5be02ca19d862a1b13cbe1bb5"
+  },
+  {
+    "id": "W-0137",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-018",
+    "address": "0x64a73f67ab8d812bbef3f9eb26e22c59235834f4"
+  },
+  {
+    "id": "W-0138",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-017",
+    "address": "0x09d4fbde096207adaafee949587fb914b9e55955"
+  },
+  {
+    "id": "W-0139",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-006",
+    "address": "0x731a4e8b561ab4be5930cf4ea40a9f94ea3f1439"
+  },
+  {
+    "id": "W-0140",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-013",
+    "address": "0x7eb2a1678602e2c6fa1bc4dbcb09bb9e26ede95d"
+  },
+  {
+    "id": "W-0141",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-005",
+    "address": "0x2469fa2c20d8d5e465c9f199fe700489f39d5f70"
+  },
+  {
+    "id": "W-0142",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-025",
+    "address": "0x8f2bfd8f3b08514ae4b518bdb19926535aa98b3b"
+  },
+  {
+    "id": "W-0143",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-001",
+    "address": "0x49bfda5364763de2340fb9b4ea5903744794642d"
+  },
+  {
+    "id": "W-0144",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-003",
+    "address": "0x0fd16311f38129033665b0248bb572306695036f"
+  },
+  {
+    "id": "W-0145",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-023",
+    "address": "0x5e35bcd67d3a3e34fb912af3c9e9e7d9d62fb50f"
+  },
+  {
+    "id": "W-0146",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-013",
+    "address": "0xe234cc352b6a6c37df88cbfcf84e338ff740312f"
+  },
+  {
+    "id": "W-0147",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-006",
+    "address": "0xca4932fe69ff8a01d3ceacee11595fd49cf3fff5"
+  },
+  {
+    "id": "W-0148",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-013",
+    "address": "0x8fcb9a1014bb0ac3dbbdb177792293a50a1edd80"
+  },
+  {
+    "id": "W-0149",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-019",
+    "address": "0x0acca3f36afa59bd6f269819c723a82fd6b299da"
+  },
+  {
+    "id": "W-0150",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-014",
+    "address": "0xc8e505f6e8d16be4749dda26d89587c7346079ef"
+  },
+  {
+    "id": "W-0151",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-014",
+    "address": "0x1658408851f012a92db2c47338f273aac7d64356"
+  },
+  {
+    "id": "W-0152",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-015",
+    "address": "0xd81fb3adf784bfb901178c9b37ec0c8927965ead"
+  },
+  {
+    "id": "W-0153",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-009",
+    "address": "0x2ffdad3582bdae015e40c69a23574daef485a962"
+  },
+  {
+    "id": "W-0154",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-012",
+    "address": "0x5cc70072e6851cd842b530def376689fc4d6696d"
+  },
+  {
+    "id": "W-0155",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-014",
+    "address": "0x40987e7be20f4ac6cd82311a7fb108c9cb41585f"
+  },
+  {
+    "id": "W-0156",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-029",
+    "address": "0xe42ad483a14f8bd988ad5af4e1641751f85ed3f1"
+  },
+  {
+    "id": "W-0157",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-012",
+    "address": "0xfef343b269558605d27f3a093cb3a402efe80a1e"
+  },
+  {
+    "id": "W-0158",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-024",
+    "address": "0x4619a12c2c857c2065cc9439fd94b3b6fecf8d2d"
+  },
+  {
+    "id": "W-0159",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-020",
+    "address": "0x5dd21ae74f29ed2f94497d91213dd3e8b8203e55"
+  },
+  {
+    "id": "W-0160",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-002",
+    "address": "0x2d9aee8a565283d00c305fecf9bc92440630606f"
+  },
+  {
+    "id": "W-0161",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-021",
+    "address": "0x7d629e4fd0354eff0e769c1a03ddf91fcff710da"
+  },
+  {
+    "id": "W-0162",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-009",
+    "address": "0xdf3fbed0596fbe77ae49cdbf5692f4565f3df976"
+  },
+  {
+    "id": "W-0163",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-001",
+    "address": "0xb8b5512ad3737f8ab18431ee33313536b59ef34b"
+  },
+  {
+    "id": "W-0164",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-027",
+    "address": "0x436ed07fa9528bdb74d74dddeb0e4022aac5d1c1"
+  },
+  {
+    "id": "W-0165",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-029",
+    "address": "0x19dc9ab084ce6ebc6921ac49629a500879d31b8b"
+  },
+  {
+    "id": "W-0166",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-002",
+    "address": "0x3e90ea77b994c73a6be34dd221d4f6e2bcc8fdef"
+  },
+  {
+    "id": "W-0167",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-027",
+    "address": "0x544fe436ef15b3d33b9143b9b99f044d19965f03"
+  },
+  {
+    "id": "W-0168",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-003",
+    "address": "0x1df9eacf44eee4a2dc7ca1e8250932616f035086"
+  },
+  {
+    "id": "W-0169",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-027",
+    "address": "0xe2ac1f0ad5d0ac823359458249d51a5019c3a4da"
+  },
+  {
+    "id": "W-0170",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-013",
+    "address": "0x31677fc381aed2f0d7083749de264b57de10e950"
+  },
+  {
+    "id": "W-0171",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-030",
+    "address": "0xf88cb6915292c348d6aa8e87aa6ea040f005dfc2"
+  },
+  {
+    "id": "W-0172",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-018",
+    "address": "0x0e3bcbc503eb6e0708b62977fb18f606c38f5652"
+  },
+  {
+    "id": "W-0173",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-024",
+    "address": "0x24878608e0d1add83efb1718dea0c6a207d2765a"
+  },
+  {
+    "id": "W-0174",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-003",
+    "address": "0x30fd0a873f7a1a72e3e3211ca241e19d23119cc3"
+  },
+  {
+    "id": "W-0175",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-008",
+    "address": "0x0eced3a0ea63302648bdfe5741149db944f9a9b0"
+  },
+  {
+    "id": "W-0176",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-002",
+    "address": "0x71db6662a6feaa9da53e1f7077e67fac6c50b02b"
+  },
+  {
+    "id": "W-0177",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-018",
+    "address": "0x349e6b106695785a756058304c3a69e7bb5d2344"
+  },
+  {
+    "id": "W-0178",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-007",
+    "address": "0xcbad71694a7184f62f25cbfe5abfff8c1676e7c6"
+  },
+  {
+    "id": "W-0179",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-014",
+    "address": "0xc5b82429eb71eadeeddbfa8c05e782b29287332b"
+  },
+  {
+    "id": "W-0180",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-018",
+    "address": "0x6a6a898648099bcc0f4c776f7eea2a6dd6ee0b44"
+  },
+  {
+    "id": "W-0181",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-024",
+    "address": "0x0fba7ddc9a0144acc6c2c6f3ae925351f0562c96"
+  },
+  {
+    "id": "W-0182",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-010",
+    "address": "0x2e1b05adc534df2c6469df596e8604e2c7afee12"
+  },
+  {
+    "id": "W-0183",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-021",
+    "address": "0xeb9c5d75dec53c1758926fd3b23ade5861e02eca"
+  },
+  {
+    "id": "W-0184",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-028",
+    "address": "0x6c10834aefe227e4f85503593c52084eb5616e13"
+  },
+  {
+    "id": "W-0185",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-023",
+    "address": "0x9e101c67b7620d00a6273551d3aa66cd3763ba50"
+  },
+  {
+    "id": "W-0186",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-021",
+    "address": "0xa0c6e728b126d9f3583ac4a5af2a0ec7070397d7"
+  },
+  {
+    "id": "W-0187",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-002",
+    "address": "0x4bf964c617ea48a1d907aa76177ca5e02f261464"
+  },
+  {
+    "id": "W-0188",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-006",
+    "address": "0x672de9567d5799e68f2bcc5fedd4f0cd29458ce9"
+  },
+  {
+    "id": "W-0189",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-010",
+    "address": "0xcf2a4f64600bfcdcbcf92d13c56d8bfb1cd77f1b"
+  },
+  {
+    "id": "W-0190",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-023",
+    "address": "0x48e4875032cc26d5d89c9d23b486c905f032dd9d"
+  },
+  {
+    "id": "W-0191",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-006",
+    "address": "0xb546f53e6561568de35292c382a07ff301801360"
+  },
+  {
+    "id": "W-0192",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-020",
+    "address": "0x8ffadabaa7bcc1ba30ec40387befd60a0b1ae7fc"
+  },
+  {
+    "id": "W-0193",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-012",
+    "address": "0xdf3c96414f29e5e3f776523d05ac878f34f2a72a"
+  },
+  {
+    "id": "W-0194",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-030",
+    "address": "0xcd77839232a63b4ac0916cdab473c0ea497fe494"
+  },
+  {
+    "id": "W-0195",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-020",
+    "address": "0xa938f6f9c1a46715fc950cadfbcc2996c34a19e5"
+  },
+  {
+    "id": "W-0196",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-015",
+    "address": "0xf946660b34cd513bf513ad4c7137cf95c2ec8eb0"
+  },
+  {
+    "id": "W-0197",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-004",
+    "address": "0x23f70f835cfd943a25c0cf2363550ea314652812"
+  },
+  {
+    "id": "W-0198",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-017",
+    "address": "0x9b5d07919e4fab63171649646b84d288c5ce28d4"
+  },
+  {
+    "id": "W-0199",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-003",
+    "address": "0x86b5d4adc072833d2a2ba847803c7c3359f3b983"
+  },
+  {
+    "id": "W-0200",
+    "exchangeId": "EX-01",
+    "clusterId": "CL-006",
+    "address": "0xac5bcf480444c81b7de5ebe98d7929da22272512"
+  },
+  {
+    "id": "W-0201",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-018",
+    "address": "0xf0d4ff3c060db71e5752b4b1dfc5b3a7399f9860"
+  },
+  {
+    "id": "W-0202",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-007",
+    "address": "0x91ef1b0ea9b30b5cb03df624d3f0487fcb9bd583"
+  },
+  {
+    "id": "W-0203",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-022",
+    "address": "0xe54bd0b636914cda156f83dff4acc433044b071a"
+  },
+  {
+    "id": "W-0204",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-020",
+    "address": "0x0df99f2d74578387d6f3564734c1864d0621cd97"
+  },
+  {
+    "id": "W-0205",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-011",
+    "address": "0xdf1d1938b8bd7a15101a69f83d58fba93304abbb"
+  },
+  {
+    "id": "W-0206",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-021",
+    "address": "0x86c2343166e32a9f64146d8bbe3d2fd05849116c"
+  },
+  {
+    "id": "W-0207",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-022",
+    "address": "0x25eccc8650560e897983571791484817630bba28"
+  },
+  {
+    "id": "W-0208",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-014",
+    "address": "0x9a10b785803c86e7a86c4e7db4f2f5e556f59095"
+  },
+  {
+    "id": "W-0209",
+    "exchangeId": "EX-03",
+    "clusterId": "CL-027",
+    "address": "0xc6242d7ec3403cc030147284003a264fe59af471"
+  },
+  {
+    "id": "W-0210",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-021",
+    "address": "0x301393d40707dc4b97c3f53739b2a3b2145da5d4"
+  },
+  {
+    "id": "W-0211",
+    "exchangeId": "EX-05",
+    "clusterId": "CL-020",
+    "address": "0x9b38fb82044a4cef23d842a45cbafdfda47cdff7"
+  },
+  {
+    "id": "W-0212",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-003",
+    "address": "0xd727b060bf431bb49e4d7671434c0db132f504b4"
+  },
+  {
+    "id": "W-0213",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-008",
+    "address": "0x20d45f49fdae093411550cde897d582c46c17c52"
+  },
+  {
+    "id": "W-0214",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-016",
+    "address": "0xacc51bd68332ba0795326096617821f11a290b9c"
+  },
+  {
+    "id": "W-0215",
+    "exchangeId": "EX-04",
+    "clusterId": "CL-011",
+    "address": "0xcb43ad340cf1954e227645ae4a9bd1c7624f3049"
+  },
+  {
+    "id": "W-0216",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-016",
+    "address": "0x3ea59528bb225e8f8e43f1b9cd4ebab2de811704"
+  },
+  {
+    "id": "W-0217",
+    "exchangeId": "EX-02",
+    "clusterId": "CL-010",
+    "address": "0xc5c27ce2beee3253cd6ca2aaf6f38e14f46a1c1b"
+  },
+  {
+    "id": "W-0218",
+    "exchangeId": "EX-07",
+    "clusterId": "CL-016",
+    "address": "0x6160d8852428c29ed68512da956bdff5dbc0624a"
+  },
+  {
+    "id": "W-0219",
+    "exchangeId": "EX-06",
+    "clusterId": "CL-001",
+    "address": "0x4e4fa3d80e4e3166d5c6b660bb0993feddbbda35"
+  },
+  {
+    "id": "W-0220",
+    "exchangeId": "EX-08",
+    "clusterId": "CL-014",
+    "address": "0xb55dc9d932320d3f3e19d67ec36f3bedc0b79889"
+  }
+]

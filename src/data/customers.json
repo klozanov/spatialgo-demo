@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "C-1001",
+    "name": "Elena Gruber",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1002",
+    "name": "David Zimmermann",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1003",
+    "name": "Marie Fischer",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1004",
+    "name": "Markus Gruber",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1005",
+    "name": "Jonas Lang",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1006",
+    "name": "Simon Schmid",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1007",
+    "name": "Tobias Berger",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1008",
+    "name": "Lisa Hofer",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1009",
+    "name": "Laura Leitner",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1010",
+    "name": "Lukas Auer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1011",
+    "name": "Lukas Koch",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1012",
+    "name": "Sophie Steiner",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1013",
+    "name": "Maximilian Fischer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1014",
+    "name": "Julia Huber",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1015",
+    "name": "Katharina Schneider",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1016",
+    "name": "Lisa Huber",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1017",
+    "name": "Sarah Neumann",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1018",
+    "name": "Helena Bauer",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1019",
+    "name": "Laura Bachmann",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1020",
+    "name": "Tobias Weber",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1021",
+    "name": "Daniela Kraus",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1022",
+    "name": "Simon Bauer",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1023",
+    "name": "Lukas Berger",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1024",
+    "name": "Helena Eder",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1025",
+    "name": "Valentina Richter",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1026",
+    "name": "Helena Pichler",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1027",
+    "name": "Laura Maier",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1028",
+    "name": "Maximilian Auer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1029",
+    "name": "Tobias Leitner",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1030",
+    "name": "Felix Berger",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1031",
+    "name": "Katharina Richter",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1032",
+    "name": "Jonas Richter",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1033",
+    "name": "Lisa Wolf",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1034",
+    "name": "Valentina Weber",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1035",
+    "name": "Eva Eder",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1036",
+    "name": "Leon Mayer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1037",
+    "name": "Thomas Mayer",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1038",
+    "name": "Felix Schwarz",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1039",
+    "name": "Anna Fischer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1040",
+    "name": "Helena Richter",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1041",
+    "name": "Valentina Wolf",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1042",
+    "name": "Florian Lang",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1043",
+    "name": "Sarah Neumann",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1044",
+    "name": "Michael Maier",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1045",
+    "name": "Leon Richter",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1046",
+    "name": "Maximilian Bachmann",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1047",
+    "name": "Lisa Auer",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1048",
+    "name": "Sebastian Eder",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1049",
+    "name": "Felix Pichler",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1050",
+    "name": "Thomas Weber",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1051",
+    "name": "Sophie Klein",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1052",
+    "name": "Paul Moser",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1053",
+    "name": "Michael Schneider",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1054",
+    "name": "Elena Leitner",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1055",
+    "name": "Lisa Schneider",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1056",
+    "name": "Paul Pichler",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1057",
+    "name": "Valentina Lang",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1058",
+    "name": "Sebastian Maier",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1059",
+    "name": "Anna Auer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1060",
+    "name": "Felix Gruber",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1061",
+    "name": "Tobias Bachmann",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1062",
+    "name": "Tobias Bachmann",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1063",
+    "name": "Julia Klein",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1064",
+    "name": "Miriam Hofer",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1065",
+    "name": "Lukas Hofer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1066",
+    "name": "Paul Huber",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1067",
+    "name": "Lisa Hofer",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1068",
+    "name": "Daniela Moser",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1069",
+    "name": "Simon Auer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1070",
+    "name": "Simon Fischer",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1071",
+    "name": "Florian Hofer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1072",
+    "name": "Sarah Weber",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1073",
+    "name": "Tobias Mayer",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1074",
+    "name": "Leon Gruber",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1075",
+    "name": "Felix Schneider",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1076",
+    "name": "Maximilian Klein",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1077",
+    "name": "Lukas Hofer",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1078",
+    "name": "Felix Kraus",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1079",
+    "name": "Sarah Richter",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1080",
+    "name": "Lukas Kraus",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1081",
+    "name": "Eva Wolf",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1082",
+    "name": "Julia Zimmermann",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1083",
+    "name": "Laura Richter",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1084",
+    "name": "Anna Bauer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1085",
+    "name": "Katharina Mayer",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1086",
+    "name": "Eva Schmid",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1087",
+    "name": "Eva Bachmann",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1088",
+    "name": "Daniela Kraus",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1089",
+    "name": "Sophie Huber",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1090",
+    "name": "Miriam Richter",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1091",
+    "name": "Nina Braun",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1092",
+    "name": "Nina Wolf",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1093",
+    "name": "Paul Schmid",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1094",
+    "name": "Jan Lang",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1095",
+    "name": "David Berger",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1096",
+    "name": "Markus Braun",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1097",
+    "name": "Anna Braun",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1098",
+    "name": "Thomas Maier",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1099",
+    "name": "Marie Gruber",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1100",
+    "name": "Sarah Leitner",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1101",
+    "name": "Tobias Schwarz",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1102",
+    "name": "Michael Wagner",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1103",
+    "name": "Leon Wagner",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1104",
+    "name": "David Maier",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1105",
+    "name": "Helena Braun",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1106",
+    "name": "Sophie Eder",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1107",
+    "name": "Sophie Neumann",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1108",
+    "name": "David Leitner",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1109",
+    "name": "Paul Wolf",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1110",
+    "name": "Michael Eder",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1111",
+    "name": "Felix Bauer",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1112",
+    "name": "Anna Schneider",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1113",
+    "name": "Sarah Leitner",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1114",
+    "name": "Anna Wolf",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1115",
+    "name": "Julia Gruber",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1116",
+    "name": "Valentina Gruber",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1117",
+    "name": "Nina Berger",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1118",
+    "name": "Jonas Fuchs",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1119",
+    "name": "Jonas Berger",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1120",
+    "name": "Eva Richter",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1121",
+    "name": "Sebastian Huber",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1122",
+    "name": "Miriam Koch",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1123",
+    "name": "Maximilian Steiner",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1124",
+    "name": "Leon Neumann",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1125",
+    "name": "Helena Wagner",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1126",
+    "name": "Jonas Huber",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1127",
+    "name": "Anna Zimmermann",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1128",
+    "name": "Thomas Pichler",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1129",
+    "name": "Michael Mayer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1130",
+    "name": "Markus Huber",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1131",
+    "name": "Eva Fuchs",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1132",
+    "name": "Lukas Neumann",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1133",
+    "name": "Michael Wolf",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1134",
+    "name": "Katharina Auer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1135",
+    "name": "Lisa Wagner",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1136",
+    "name": "Lisa Koch",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1137",
+    "name": "Sarah Maier",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1138",
+    "name": "Nina Auer",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1139",
+    "name": "Lukas Berger",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1140",
+    "name": "Julia Fuchs",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1141",
+    "name": "Laura Hofer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1142",
+    "name": "Tobias Leitner",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1143",
+    "name": "Marie Steiner",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1144",
+    "name": "Lukas Bachmann",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1145",
+    "name": "Jan Zimmermann",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1146",
+    "name": "Sarah Neumann",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1147",
+    "name": "Sebastian Klein",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1148",
+    "name": "Maximilian Eder",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1149",
+    "name": "Lukas Klein",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1150",
+    "name": "Helena Bachmann",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1151",
+    "name": "Paul Pichler",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1152",
+    "name": "Katharina Zimmermann",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1153",
+    "name": "Helena Fuchs",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1154",
+    "name": "Eva Schneider",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1155",
+    "name": "David Fischer",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1156",
+    "name": "Jonas Schneider",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1157",
+    "name": "Jonas Eder",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1158",
+    "name": "Marie Bauer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1159",
+    "name": "Markus Fuchs",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1160",
+    "name": "Paul Schmid",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1161",
+    "name": "Laura Fuchs",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1162",
+    "name": "Nina Schwarz",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1163",
+    "name": "Thomas Hofer",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1164",
+    "name": "Nina Braun",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1165",
+    "name": "Daniela Mayer",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1166",
+    "name": "Thomas Wolf",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1167",
+    "name": "Laura Huber",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1168",
+    "name": "Nina Kraus",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1169",
+    "name": "Jonas Fuchs",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1170",
+    "name": "Jonas Zimmermann",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1171",
+    "name": "Laura Koch",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1172",
+    "name": "Eva Zimmermann",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1173",
+    "name": "Miriam Auer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1174",
+    "name": "Marie Huber",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1175",
+    "name": "Felix Bachmann",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1176",
+    "name": "Daniela Fuchs",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1177",
+    "name": "Valentina Berger",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1178",
+    "name": "Tobias Weber",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1179",
+    "name": "Daniela Lang",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1180",
+    "name": "Laura Klein",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1181",
+    "name": "Felix Zimmermann",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1182",
+    "name": "Elena Leitner",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1183",
+    "name": "Markus Weber",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1184",
+    "name": "Tobias Wolf",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1185",
+    "name": "Nina Hofer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1186",
+    "name": "Felix Koch",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1187",
+    "name": "Tobias Wagner",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1188",
+    "name": "Paul Richter",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1189",
+    "name": "Nina Wagner",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1190",
+    "name": "Lukas Braun",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1191",
+    "name": "Paul Bachmann",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1192",
+    "name": "Julia Schmid",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1193",
+    "name": "Eva Bachmann",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1194",
+    "name": "Markus Zimmermann",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1195",
+    "name": "Valentina Schwarz",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1196",
+    "name": "Thomas Moser",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1197",
+    "name": "Jonas Mayer",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1198",
+    "name": "Thomas Lang",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1199",
+    "name": "Leon Berger",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1200",
+    "name": "Simon Fuchs",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1201",
+    "name": "Tobias Hofer",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1202",
+    "name": "Sarah Schwarz",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1203",
+    "name": "Michael Steiner",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1204",
+    "name": "Helena Neumann",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1205",
+    "name": "Leon Neumann",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1206",
+    "name": "Leon Richter",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1207",
+    "name": "Felix Fuchs",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1208",
+    "name": "Felix Pichler",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1209",
+    "name": "Laura Berger",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1210",
+    "name": "Maximilian Kraus",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1211",
+    "name": "Elena Koch",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1212",
+    "name": "Julia Pichler",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1213",
+    "name": "Sarah Schwarz",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1214",
+    "name": "Julia Kraus",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1215",
+    "name": "Julia Moser",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1216",
+    "name": "Lisa Richter",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1217",
+    "name": "Nina Wagner",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1218",
+    "name": "Lisa Klein",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1219",
+    "name": "Florian Schmid",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1220",
+    "name": "Daniela Kraus",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1221",
+    "name": "Sarah Maier",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1222",
+    "name": "Helena Weber",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1223",
+    "name": "Sebastian Hofer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1224",
+    "name": "Tobias Zimmermann",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1225",
+    "name": "Paul Schneider",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1226",
+    "name": "Sebastian Steiner",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1227",
+    "name": "Florian Wolf",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1228",
+    "name": "Helena Weber",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1229",
+    "name": "Maximilian Wagner",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1230",
+    "name": "Tobias Steiner",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1231",
+    "name": "Eva Bachmann",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1232",
+    "name": "Tobias Koch",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1233",
+    "name": "Tobias Fischer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1234",
+    "name": "Julia Bauer",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1235",
+    "name": "Sophie Maier",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1236",
+    "name": "Helena Bauer",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1237",
+    "name": "Helena Schwarz",
+    "segment": "Student"
+  },
+  {
+    "id": "C-1238",
+    "name": "Felix Klein",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1239",
+    "name": "Sophie Braun",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1240",
+    "name": "Laura Berger",
+    "segment": "SME"
+  },
+  {
+    "id": "C-1241",
+    "name": "Lukas Berger",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1242",
+    "name": "Nina Wagner",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1243",
+    "name": "Daniela Schmid",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1244",
+    "name": "Simon Schmid",
+    "segment": "Affluent"
+  },
+  {
+    "id": "C-1245",
+    "name": "Tobias Richter",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1246",
+    "name": "Elena Koch",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1247",
+    "name": "Anna Klein",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1248",
+    "name": "Florian Pichler",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1249",
+    "name": "Jonas Moser",
+    "segment": "Retail"
+  },
+  {
+    "id": "C-1250",
+    "name": "Anna Schmid",
+    "segment": "Student"
+  }
+]

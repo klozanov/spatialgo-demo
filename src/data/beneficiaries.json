@@ -1,0 +1,1183 @@
+[
+  {
+    "id": "B-001",
+    "iban": "AT584384588105697413",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1114",
+      "C-1155"
+    ]
+  },
+  {
+    "id": "B-002",
+    "iban": "AT834831520377107044",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1027",
+      "C-1062"
+    ]
+  },
+  {
+    "id": "B-003",
+    "iban": "AT641049670667033626",
+    "label": "Savings",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-004",
+    "iban": "AT040850954930596601",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1023"
+    ]
+  },
+  {
+    "id": "B-005",
+    "iban": "AT648769984267320441",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1036"
+    ]
+  },
+  {
+    "id": "B-006",
+    "iban": "AT845960945449014954",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1029",
+      "C-1183",
+      "C-1216",
+      "C-1245"
+    ]
+  },
+  {
+    "id": "B-007",
+    "iban": "AT770707057836091498",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1133",
+      "C-1214"
+    ]
+  },
+  {
+    "id": "B-008",
+    "iban": "AT172444723229031028",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1071"
+    ]
+  },
+  {
+    "id": "B-009",
+    "iban": "AT950830440580935118",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1025",
+      "C-1077",
+      "C-1084"
+    ]
+  },
+  {
+    "id": "B-010",
+    "iban": "AT181335956164205955",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1069",
+      "C-1219"
+    ]
+  },
+  {
+    "id": "B-011",
+    "iban": "AT574902504290193588",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1010",
+      "C-1135",
+      "C-1217",
+      "C-1225"
+    ]
+  },
+  {
+    "id": "B-012",
+    "iban": "AT536902611398986818",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": [
+      "C-1130",
+      "C-1216"
+    ]
+  },
+  {
+    "id": "B-013",
+    "iban": "AT978875439435353751",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1035",
+      "C-1050"
+    ]
+  },
+  {
+    "id": "B-014",
+    "iban": "AT765158815793763928",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1020"
+    ]
+  },
+  {
+    "id": "B-015",
+    "iban": "AT692944551166829732",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1061",
+      "C-1105"
+    ]
+  },
+  {
+    "id": "B-016",
+    "iban": "AT021648712060212886",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1024",
+      "C-1057",
+      "C-1091",
+      "C-1100",
+      "C-1206"
+    ]
+  },
+  {
+    "id": "B-017",
+    "iban": "AT526834155999101576",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1159"
+    ]
+  },
+  {
+    "id": "B-018",
+    "iban": "AT647229812099576572",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1083",
+      "C-1089"
+    ]
+  },
+  {
+    "id": "B-019",
+    "iban": "AT941347509889864565",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1182"
+    ]
+  },
+  {
+    "id": "B-020",
+    "iban": "AT203684995154214477",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1214",
+      "C-1225",
+      "C-1226"
+    ]
+  },
+  {
+    "id": "B-021",
+    "iban": "AT244913421388209088",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1220",
+      "C-1230"
+    ]
+  },
+  {
+    "id": "B-022",
+    "iban": "AT070534967827411767",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1124"
+    ]
+  },
+  {
+    "id": "B-023",
+    "iban": "AT124151315285478150",
+    "label": "Rent",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-024",
+    "iban": "AT185380032963347272",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1146"
+    ]
+  },
+  {
+    "id": "B-025",
+    "iban": "AT423183061789320649",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1087"
+    ]
+  },
+  {
+    "id": "B-026",
+    "iban": "AT935782434776958741",
+    "label": "Shell Entity",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-027",
+    "iban": "AT146753612751562779",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1187"
+    ]
+  },
+  {
+    "id": "B-028",
+    "iban": "AT304483608545667664",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": [
+      "C-1066",
+      "C-1116"
+    ]
+  },
+  {
+    "id": "B-029",
+    "iban": "AT473504763928319952",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1183",
+      "C-1221"
+    ]
+  },
+  {
+    "id": "B-030",
+    "iban": "AT800615581083583286",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1116"
+    ]
+  },
+  {
+    "id": "B-031",
+    "iban": "AT425563830008186702",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1086"
+    ]
+  },
+  {
+    "id": "B-032",
+    "iban": "AT403304166241118600",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1125",
+      "C-1146"
+    ]
+  },
+  {
+    "id": "B-033",
+    "iban": "AT921963945680447314",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1135",
+      "C-1249"
+    ]
+  },
+  {
+    "id": "B-034",
+    "iban": "AT764613684748836076",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1131"
+    ]
+  },
+  {
+    "id": "B-035",
+    "iban": "AT817390637579145211",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1063",
+      "C-1111"
+    ]
+  },
+  {
+    "id": "B-036",
+    "iban": "AT237931269789307464",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1079",
+      "C-1106"
+    ]
+  },
+  {
+    "id": "B-037",
+    "iban": "AT205996043878753577",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1044",
+      "C-1164",
+      "C-1249",
+      "C-1018",
+      "C-1101",
+      "C-1240",
+      "C-1212",
+      "C-1093",
+      "C-1007",
+      "C-1014",
+      "C-1153",
+      "C-1038",
+      "C-1226",
+      "C-1195",
+      "C-1124",
+      "C-1208"
+    ]
+  },
+  {
+    "id": "B-038",
+    "iban": "AT811616202812371067",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1043"
+    ]
+  },
+  {
+    "id": "B-039",
+    "iban": "AT872866041644859592",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1161"
+    ]
+  },
+  {
+    "id": "B-040",
+    "iban": "AT483958947735228705",
+    "label": "Rent",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-041",
+    "iban": "AT227104331875109792",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": [
+      "C-1100"
+    ]
+  },
+  {
+    "id": "B-042",
+    "iban": "AT583503446945964883",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-043",
+    "iban": "AT921342491289659994",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1194",
+      "C-1197"
+    ]
+  },
+  {
+    "id": "B-044",
+    "iban": "AT732033192227051028",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1083",
+      "C-1094",
+      "C-1209"
+    ]
+  },
+  {
+    "id": "B-045",
+    "iban": "AT675481386667548581",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1177"
+    ]
+  },
+  {
+    "id": "B-046",
+    "iban": "AT324268774186520575",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1172"
+    ]
+  },
+  {
+    "id": "B-047",
+    "iban": "AT398365203758309451",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1044",
+      "C-1164",
+      "C-1249",
+      "C-1018",
+      "C-1101",
+      "C-1240",
+      "C-1212",
+      "C-1093",
+      "C-1007",
+      "C-1014",
+      "C-1153",
+      "C-1038",
+      "C-1226",
+      "C-1195",
+      "C-1124",
+      "C-1004",
+      "C-1230"
+    ]
+  },
+  {
+    "id": "B-048",
+    "iban": "AT480940476044090797",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1210",
+      "C-1166",
+      "C-1026",
+      "C-1057",
+      "C-1075",
+      "C-1235",
+      "C-1250",
+      "C-1230",
+      "C-1103",
+      "C-1027",
+      "C-1177",
+      "C-1135",
+      "C-1079",
+      "C-1191",
+      "C-1236",
+      "C-1029",
+      "C-1090",
+      "C-1214",
+      "C-1203",
+      "C-1025",
+      "C-1233",
+      "C-1133",
+      "C-1198",
+      "C-1039",
+      "C-1223",
+      "C-1134",
+      "C-1062",
+      "C-1143",
+      "C-1119",
+      "C-1091",
+      "C-1122"
+    ]
+  },
+  {
+    "id": "B-049",
+    "iban": "AT278105092221610705",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": [
+      "C-1210"
+    ]
+  },
+  {
+    "id": "B-050",
+    "iban": "AT843905529580660138",
+    "label": "Shell Entity",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-051",
+    "iban": "AT412704938620448515",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1093",
+      "C-1148"
+    ]
+  },
+  {
+    "id": "B-052",
+    "iban": "AT919711121259020357",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": [
+      "C-1198",
+      "C-1223"
+    ]
+  },
+  {
+    "id": "B-053",
+    "iban": "AT343240642429563343",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1004",
+      "C-1061"
+    ]
+  },
+  {
+    "id": "B-054",
+    "iban": "AT447417595587209628",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1205"
+    ]
+  },
+  {
+    "id": "B-055",
+    "iban": "AT365435884183437401",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1055"
+    ]
+  },
+  {
+    "id": "B-056",
+    "iban": "AT272795596905150267",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1130"
+    ]
+  },
+  {
+    "id": "B-057",
+    "iban": "AT512542782079799667",
+    "label": "Shell Entity",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-058",
+    "iban": "AT459576403816649690",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1222"
+    ]
+  },
+  {
+    "id": "B-059",
+    "iban": "AT824983922501425762",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1094"
+    ]
+  },
+  {
+    "id": "B-060",
+    "iban": "AT023244123361328507",
+    "label": "Shell Entity",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-061",
+    "iban": "AT517863767316252654",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1099",
+      "C-1072",
+      "C-1170",
+      "C-1204",
+      "C-1217",
+      "C-1163",
+      "C-1053",
+      "C-1081",
+      "C-1202",
+      "C-1208",
+      "C-1149"
+    ]
+  },
+  {
+    "id": "B-062",
+    "iban": "AT968157903923555809",
+    "label": "Savings",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-063",
+    "iban": "AT613273034615626244",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1117",
+      "C-1187",
+      "C-1190",
+      "C-1156",
+      "C-1123",
+      "C-1188",
+      "C-1244",
+      "C-1209",
+      "C-1077",
+      "C-1194",
+      "C-1176",
+      "C-1183",
+      "C-1227",
+      "C-1115",
+      "C-1071",
+      "C-1035",
+      "C-1104",
+      "C-1033",
+      "C-1235"
+    ]
+  },
+  {
+    "id": "B-064",
+    "iban": "AT704622681715160252",
+    "label": "Savings",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-065",
+    "iban": "AT867076604641978575",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1040",
+      "C-1056"
+    ]
+  },
+  {
+    "id": "B-066",
+    "iban": "AT512686120594389760",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1147"
+    ]
+  },
+  {
+    "id": "B-067",
+    "iban": "AT401775095465408424",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1011",
+      "C-1132",
+      "C-1138"
+    ]
+  },
+  {
+    "id": "B-068",
+    "iban": "AT607540915086321812",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1219"
+    ]
+  },
+  {
+    "id": "B-069",
+    "iban": "AT764579389701550291",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1144"
+    ]
+  },
+  {
+    "id": "B-070",
+    "iban": "AT815466024161394498",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1099",
+      "C-1072",
+      "C-1170",
+      "C-1204",
+      "C-1217",
+      "C-1163",
+      "C-1053",
+      "C-1081",
+      "C-1202",
+      "C-1208",
+      "C-1008",
+      "C-1034",
+      "C-1067"
+    ]
+  },
+  {
+    "id": "B-071",
+    "iban": "AT305973642480962440",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1001",
+      "C-1095",
+      "C-1102",
+      "C-1229"
+    ]
+  },
+  {
+    "id": "B-072",
+    "iban": "AT306244795133053194",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1117",
+      "C-1187",
+      "C-1190",
+      "C-1156",
+      "C-1123",
+      "C-1188",
+      "C-1244",
+      "C-1209",
+      "C-1077",
+      "C-1194",
+      "C-1176",
+      "C-1183",
+      "C-1227",
+      "C-1115",
+      "C-1071",
+      "C-1035",
+      "C-1104",
+      "C-1061",
+      "C-1199"
+    ]
+  },
+  {
+    "id": "B-073",
+    "iban": "AT796958678055557277",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1098"
+    ]
+  },
+  {
+    "id": "B-074",
+    "iban": "AT826460917851385445",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1058",
+      "C-1151",
+      "C-1216",
+      "C-1247"
+    ]
+  },
+  {
+    "id": "B-075",
+    "iban": "AT702992959660487368",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1108",
+      "C-1249"
+    ]
+  },
+  {
+    "id": "B-076",
+    "iban": "AT691163319422686536",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1195",
+      "C-1198"
+    ]
+  },
+  {
+    "id": "B-077",
+    "iban": "AT455158886367747226",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1210",
+      "C-1166",
+      "C-1026",
+      "C-1057",
+      "C-1075",
+      "C-1235",
+      "C-1250",
+      "C-1230",
+      "C-1103",
+      "C-1027",
+      "C-1177",
+      "C-1135",
+      "C-1079",
+      "C-1191",
+      "C-1236",
+      "C-1029",
+      "C-1090",
+      "C-1214",
+      "C-1085",
+      "C-1132"
+    ]
+  },
+  {
+    "id": "B-078",
+    "iban": "AT085721696663093299",
+    "label": "Savings",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-079",
+    "iban": "AT199605932971509688",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1037",
+      "C-1084",
+      "C-1239"
+    ]
+  },
+  {
+    "id": "B-080",
+    "iban": "AT275327352410397739",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1139"
+    ]
+  },
+  {
+    "id": "B-081",
+    "iban": "AT327819523710068761",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1070",
+      "C-1084",
+      "C-1194"
+    ]
+  },
+  {
+    "id": "B-082",
+    "iban": "AT481980770460568761",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": [
+      "C-1075"
+    ]
+  },
+  {
+    "id": "B-083",
+    "iban": "AT249125652373415177",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1214"
+    ]
+  },
+  {
+    "id": "B-084",
+    "iban": "AT454757494902284035",
+    "label": "Savings",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-085",
+    "iban": "AT544294774222946430",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1203",
+      "C-1025",
+      "C-1233",
+      "C-1133",
+      "C-1198",
+      "C-1039",
+      "C-1223",
+      "C-1134",
+      "C-1062",
+      "C-1143",
+      "C-1119",
+      "C-1091",
+      "C-1015"
+    ]
+  },
+  {
+    "id": "B-086",
+    "iban": "AT942904588679252985",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1224"
+    ]
+  },
+  {
+    "id": "B-087",
+    "iban": "AT567287276015343324",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1029"
+    ]
+  },
+  {
+    "id": "B-088",
+    "iban": "AT135779083350615814",
+    "label": "Savings",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-089",
+    "iban": "AT881079833423372094",
+    "label": "Savings",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-090",
+    "iban": "AT413128403339977180",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1117",
+      "C-1187",
+      "C-1190",
+      "C-1156",
+      "C-1123",
+      "C-1188",
+      "C-1244",
+      "C-1209",
+      "C-1077",
+      "C-1194",
+      "C-1176",
+      "C-1183",
+      "C-1227",
+      "C-1115",
+      "C-1071",
+      "C-1035",
+      "C-1104"
+    ]
+  },
+  {
+    "id": "B-091",
+    "iban": "AT137171731893974909",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1152",
+      "C-1233"
+    ]
+  },
+  {
+    "id": "B-092",
+    "iban": "AT173997046947258784",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1222",
+      "C-1174",
+      "C-1043",
+      "C-1066",
+      "C-1146",
+      "C-1216",
+      "C-1137",
+      "C-1112",
+      "C-1181",
+      "C-1180",
+      "C-1149",
+      "C-1019",
+      "C-1090",
+      "C-1125"
+    ]
+  },
+  {
+    "id": "B-093",
+    "iban": "AT483548847127058772",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1091"
+    ]
+  },
+  {
+    "id": "B-094",
+    "iban": "AT164175823133484587",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-095",
+    "iban": "AT493925236229258796",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-096",
+    "iban": "AT347452455574696606",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": [
+      "C-1180",
+      "C-1202"
+    ]
+  },
+  {
+    "id": "B-097",
+    "iban": "AT652740334450566588",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1162"
+    ]
+  },
+  {
+    "id": "B-098",
+    "iban": "AT398741132579706734",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1145"
+    ]
+  },
+  {
+    "id": "B-099",
+    "iban": "AT960105485741721562",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1143"
+    ]
+  },
+  {
+    "id": "B-100",
+    "iban": "AT949381735984884021",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1072",
+      "C-1204"
+    ]
+  },
+  {
+    "id": "B-101",
+    "iban": "AT573257375534490216",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1151"
+    ]
+  },
+  {
+    "id": "B-102",
+    "iban": "AT670808509608587495",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": [
+      "C-1092",
+      "C-1164"
+    ]
+  },
+  {
+    "id": "B-103",
+    "iban": "AT191818281979316477",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1020"
+    ]
+  },
+  {
+    "id": "B-104",
+    "iban": "AT512957860694096003",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1047",
+      "C-1111",
+      "C-1159"
+    ]
+  },
+  {
+    "id": "B-105",
+    "iban": "AT624395873959232342",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": [
+      "C-1196"
+    ]
+  },
+  {
+    "id": "B-106",
+    "iban": "AT089028515533342643",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1099",
+      "C-1072",
+      "C-1170",
+      "C-1204",
+      "C-1217",
+      "C-1163",
+      "C-1053",
+      "C-1081",
+      "C-1202",
+      "C-1208",
+      "C-1218",
+      "C-1240"
+    ]
+  },
+  {
+    "id": "B-107",
+    "iban": "AT502716073607763369",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-108",
+    "iban": "AT128981231795563318",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1080",
+      "C-1160"
+    ]
+  },
+  {
+    "id": "B-109",
+    "iban": "AT748170066615541643",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": [
+      "C-1222",
+      "C-1174",
+      "C-1043",
+      "C-1066",
+      "C-1146",
+      "C-1216",
+      "C-1137",
+      "C-1112",
+      "C-1181",
+      "C-1180",
+      "C-1149"
+    ]
+  },
+  {
+    "id": "B-110",
+    "iban": "AT670450232902822700",
+    "label": "Savings",
+    "linkedCustomerIds": [
+      "C-1043"
+    ]
+  },
+  {
+    "id": "B-111",
+    "iban": "AT345962622822512073",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-112",
+    "iban": "AT654950050702608698",
+    "label": "Shell Entity",
+    "linkedCustomerIds": [
+      "C-1075",
+      "C-1140",
+      "C-1234"
+    ]
+  },
+  {
+    "id": "B-113",
+    "iban": "AT210531611776872904",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1120"
+    ]
+  },
+  {
+    "id": "B-114",
+    "iban": "AT742585917793238223",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": [
+      "C-1236"
+    ]
+  },
+  {
+    "id": "B-115",
+    "iban": "AT164913342457988942",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1141"
+    ]
+  },
+  {
+    "id": "B-116",
+    "iban": "AT652906032020326509",
+    "label": "Rent",
+    "linkedCustomerIds": [
+      "C-1047"
+    ]
+  },
+  {
+    "id": "B-117",
+    "iban": "AT753967379487148552",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "B-118",
+    "iban": "AT578715841560821371",
+    "label": "Private Beneficiary",
+    "linkedCustomerIds": [
+      "C-1113",
+      "C-1187"
+    ]
+  },
+  {
+    "id": "B-119",
+    "iban": "AT842547681826832303",
+    "label": "Merchant Settlement",
+    "linkedCustomerIds": [
+      "C-1107",
+      "C-1173"
+    ]
+  },
+  {
+    "id": "B-120",
+    "iban": "AT892988085838252129",
+    "label": "Shell Entity",
+    "linkedCustomerIds": []
+  }
+]

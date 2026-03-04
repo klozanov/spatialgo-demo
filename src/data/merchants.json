@@ -1,0 +1,632 @@
+[
+  {
+    "id": "M-001",
+    "name": "Austro Market",
+    "mcc": "5107",
+    "category": "Pharmacy",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-002",
+    "name": "Donau Shop",
+    "mcc": "4100",
+    "category": "Gaming",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-003",
+    "name": "Tyrol Travel",
+    "mcc": "5830",
+    "category": "Fintech",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-004",
+    "name": "Donau Services",
+    "mcc": "5921",
+    "category": "Telecom",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-005",
+    "name": "Vienna Services",
+    "mcc": "5138",
+    "category": "Telecom",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-006",
+    "name": "Austro Electro",
+    "mcc": "5216",
+    "category": "Travel",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-007",
+    "name": "Salzburg Market",
+    "mcc": "4294",
+    "category": "Fintech",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-008",
+    "name": "Donau Travel",
+    "mcc": "5610",
+    "category": "Luxury",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-009",
+    "name": "Salzburg Electro",
+    "mcc": "4396",
+    "category": "Grocery",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-010",
+    "name": "Alpen Market",
+    "mcc": "5972",
+    "category": "Telecom",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-011",
+    "name": "Salzburg Store",
+    "mcc": "5486",
+    "category": "Pharmacy",
+    "riskLevel": "HIGH"
+  },
+  {
+    "id": "M-012",
+    "name": "Donau Market",
+    "mcc": "4908",
+    "category": "Luxury",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-013",
+    "name": "Vienna Store",
+    "mcc": "5304",
+    "category": "Travel",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-014",
+    "name": "Tyrol Store",
+    "mcc": "5580",
+    "category": "Pharmacy",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-015",
+    "name": "Austro Travel",
+    "mcc": "4611",
+    "category": "Travel",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-016",
+    "name": "Tyrol Travel",
+    "mcc": "4314",
+    "category": "Travel",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-017",
+    "name": "Austro Shop",
+    "mcc": "5792",
+    "category": "Telecom",
+    "riskLevel": "HIGH"
+  },
+  {
+    "id": "M-018",
+    "name": "Alpen Travel",
+    "mcc": "5716",
+    "category": "Telecom",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-019",
+    "name": "Salzburg Travel",
+    "mcc": "5198",
+    "category": "Luxury",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-020",
+    "name": "Austro Travel",
+    "mcc": "5553",
+    "category": "Telecom",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-021",
+    "name": "Alpen Store",
+    "mcc": "5498",
+    "category": "Pharmacy",
+    "riskLevel": "HIGH"
+  },
+  {
+    "id": "M-022",
+    "name": "Vienna Market",
+    "mcc": "5780",
+    "category": "Fintech",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-023",
+    "name": "Salzburg Travel",
+    "mcc": "4116",
+    "category": "Travel",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-024",
+    "name": "Vienna Services",
+    "mcc": "5500",
+    "category": "Telecom",
+    "riskLevel": "HIGH"
+  },
+  {
+    "id": "M-025",
+    "name": "Austro Electro",
+    "mcc": "4673",
+    "category": "Gaming",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-026",
+    "name": "Vienna Shop",
+    "mcc": "4170",
+    "category": "Electronics",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-027",
+    "name": "Salzburg Market",
+    "mcc": "5199",
+    "category": "Fintech",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-028",
+    "name": "Salzburg Services",
+    "mcc": "4544",
+    "category": "Travel",
+    "riskLevel": "HIGH"
+  },
+  {
+    "id": "M-029",
+    "name": "Austro Travel",
+    "mcc": "5148",
+    "category": "Pharmacy",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-030",
+    "name": "Salzburg Electro",
+    "mcc": "5062",
+    "category": "Gaming",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-031",
+    "name": "Alpen Electro",
+    "mcc": "5716",
+    "category": "Travel",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-032",
+    "name": "Alpen Market",
+    "mcc": "4738",
+    "category": "Pharmacy",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-033",
+    "name": "Tyrol Travel",
+    "mcc": "5669",
+    "category": "Gaming",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-034",
+    "name": "Alpen Shop",
+    "mcc": "5325",
+    "category": "Fintech",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-035",
+    "name": "Tyrol Electro",
+    "mcc": "4076",
+    "category": "Gaming",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-036",
+    "name": "Austro Services",
+    "mcc": "5592",
+    "category": "Gaming",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-037",
+    "name": "Alpen Market",
+    "mcc": "5161",
+    "category": "Luxury",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-038",
+    "name": "Vienna Store",
+    "mcc": "4598",
+    "category": "Gaming",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-039",
+    "name": "Austro Travel",
+    "mcc": "5739",
+    "category": "Telecom",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-040",
+    "name": "Austro Shop",
+    "mcc": "4721",
+    "category": "Grocery",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-041",
+    "name": "Alpen Shop",
+    "mcc": "4938",
+    "category": "Telecom",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-042",
+    "name": "Donau Market",
+    "mcc": "5143",
+    "category": "Marketplace",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-043",
+    "name": "Austro Travel",
+    "mcc": "5542",
+    "category": "Gift Cards",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-044",
+    "name": "Donau Travel",
+    "mcc": "5754",
+    "category": "Travel",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-045",
+    "name": "Tyrol Electro",
+    "mcc": "5515",
+    "category": "Grocery",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-046",
+    "name": "Vienna Store",
+    "mcc": "5872",
+    "category": "Travel",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-047",
+    "name": "Vienna Electro",
+    "mcc": "5018",
+    "category": "Luxury",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-048",
+    "name": "Donau Shop",
+    "mcc": "5753",
+    "category": "Fintech",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-049",
+    "name": "Salzburg Shop",
+    "mcc": "5545",
+    "category": "Luxury",
+    "riskLevel": "HIGH"
+  },
+  {
+    "id": "M-050",
+    "name": "Vienna Store",
+    "mcc": "4228",
+    "category": "Grocery",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-051",
+    "name": "Tyrol Services",
+    "mcc": "5315",
+    "category": "Marketplace",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-052",
+    "name": "Tyrol Electro",
+    "mcc": "4364",
+    "category": "Gaming",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-053",
+    "name": "Alpen Market",
+    "mcc": "4191",
+    "category": "Travel",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-054",
+    "name": "Austro Travel",
+    "mcc": "5745",
+    "category": "Telecom",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-055",
+    "name": "Vienna Electro",
+    "mcc": "4724",
+    "category": "Gaming",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-056",
+    "name": "Salzburg Store",
+    "mcc": "5730",
+    "category": "Telecom",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-057",
+    "name": "Alpen Shop",
+    "mcc": "4460",
+    "category": "Fintech",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-058",
+    "name": "Donau Electro",
+    "mcc": "4317",
+    "category": "Telecom",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-059",
+    "name": "Donau Services",
+    "mcc": "4448",
+    "category": "Grocery",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-060",
+    "name": "Salzburg Services",
+    "mcc": "5662",
+    "category": "Grocery",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-061",
+    "name": "Vienna Market",
+    "mcc": "5975",
+    "category": "Electronics",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-062",
+    "name": "Salzburg Travel",
+    "mcc": "4848",
+    "category": "Marketplace",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-063",
+    "name": "Tyrol Market",
+    "mcc": "4844",
+    "category": "Luxury",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-064",
+    "name": "Tyrol Travel",
+    "mcc": "5284",
+    "category": "Pharmacy",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-065",
+    "name": "Salzburg Services",
+    "mcc": "4535",
+    "category": "Gift Cards",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-066",
+    "name": "Vienna Travel",
+    "mcc": "4758",
+    "category": "Gift Cards",
+    "riskLevel": "HIGH"
+  },
+  {
+    "id": "M-067",
+    "name": "Donau Shop",
+    "mcc": "5106",
+    "category": "Gift Cards",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-068",
+    "name": "Austro Market",
+    "mcc": "4658",
+    "category": "Grocery",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-069",
+    "name": "Tyrol Market",
+    "mcc": "4197",
+    "category": "Marketplace",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-070",
+    "name": "Tyrol Shop",
+    "mcc": "4214",
+    "category": "Pharmacy",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-071",
+    "name": "Vienna Services",
+    "mcc": "5437",
+    "category": "Marketplace",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-072",
+    "name": "Donau Travel",
+    "mcc": "4551",
+    "category": "Pharmacy",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-073",
+    "name": "Salzburg Electro",
+    "mcc": "4896",
+    "category": "Fintech",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-074",
+    "name": "Alpen Market",
+    "mcc": "4045",
+    "category": "Marketplace",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-075",
+    "name": "Austro Store",
+    "mcc": "5834",
+    "category": "Gift Cards",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-076",
+    "name": "Austro Market",
+    "mcc": "4130",
+    "category": "Gift Cards",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-077",
+    "name": "Austro Shop",
+    "mcc": "5166",
+    "category": "Telecom",
+    "riskLevel": "HIGH"
+  },
+  {
+    "id": "M-078",
+    "name": "Austro Store",
+    "mcc": "5461",
+    "category": "Pharmacy",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-079",
+    "name": "Austro Market",
+    "mcc": "4811",
+    "category": "Grocery",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-080",
+    "name": "Vienna Electro",
+    "mcc": "5427",
+    "category": "Telecom",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-081",
+    "name": "Tyrol Electro",
+    "mcc": "5937",
+    "category": "Gaming",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-082",
+    "name": "Tyrol Services",
+    "mcc": "5201",
+    "category": "Gift Cards",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-083",
+    "name": "Tyrol Store",
+    "mcc": "5458",
+    "category": "Gift Cards",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-084",
+    "name": "Alpen Electro",
+    "mcc": "4130",
+    "category": "Marketplace",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-085",
+    "name": "Donau Services",
+    "mcc": "4398",
+    "category": "Grocery",
+    "riskLevel": "HIGH"
+  },
+  {
+    "id": "M-086",
+    "name": "Donau Market",
+    "mcc": "4060",
+    "category": "Fintech",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "M-087",
+    "name": "Vienna Store",
+    "mcc": "4192",
+    "category": "Gaming",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-088",
+    "name": "Austro Travel",
+    "mcc": "5648",
+    "category": "Gaming",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-089",
+    "name": "Salzburg Market",
+    "mcc": "5735",
+    "category": "Gift Cards",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "M-090",
+    "name": "Vienna Shop",
+    "mcc": "4363",
+    "category": "Gaming",
+    "riskLevel": "MEDIUM"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "CL-001",
+    "tag": "Mixer",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "CL-002",
+    "tag": "Sanctioned Entity Proximity",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "CL-003",
+    "tag": "Mixer",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "CL-004",
+    "tag": "Gambling",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "CL-005",
+    "tag": "High Velocity Wallets",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "CL-006",
+    "tag": "Mixer",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "CL-007",
+    "tag": "High-Risk DEX",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "CL-008",
+    "tag": "Ransomware",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "CL-009",
+    "tag": "Sanctioned Entity Proximity",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "CL-010",
+    "tag": "Ransomware",
+    "riskLevel": "HIGH"
+  },
+  {
+    "id": "CL-011",
+    "tag": "Scam Farm",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "CL-012",
+    "tag": "Ransomware",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "CL-013",
+    "tag": "Mixer",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "CL-014",
+    "tag": "Gambling",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "CL-015",
+    "tag": "Scam Farm",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "CL-016",
+    "tag": "Darknet Market",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "CL-017",
+    "tag": "Unknown High-Risk",
+    "riskLevel": "HIGH"
+  },
+  {
+    "id": "CL-018",
+    "tag": "Ransomware",
+    "riskLevel": "HIGH"
+  },
+  {
+    "id": "CL-019",
+    "tag": "Bridge",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "CL-020",
+    "tag": "Sanctioned Entity Proximity",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "CL-021",
+    "tag": "Bridge",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "CL-022",
+    "tag": "Bridge",
+    "riskLevel": "HIGH"
+  },
+  {
+    "id": "CL-023",
+    "tag": "High Velocity Wallets",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "CL-024",
+    "tag": "Ransomware",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "CL-025",
+    "tag": "Ransomware",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "CL-026",
+    "tag": "Darknet Market",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": "CL-027",
+    "tag": "Bridge",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "CL-028",
+    "tag": "High-Risk DEX",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "CL-029",
+    "tag": "Sanctioned Entity Proximity",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": "CL-030",
+    "tag": "Scam Farm",
+    "riskLevel": "LOW"
+  }
+]

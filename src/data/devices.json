@@ -1,0 +1,589 @@
+[
+  {
+    "id": "D-001",
+    "fingerprint": "fp_0pa0cabjx7uv",
+    "linkedCustomerIds": [
+      "C-1050",
+      "C-1146"
+    ]
+  },
+  {
+    "id": "D-002",
+    "fingerprint": "fp_k1p9zmzd1iyl",
+    "linkedCustomerIds": [
+      "C-1210",
+      "C-1166",
+      "C-1026",
+      "C-1057",
+      "C-1075",
+      "C-1235",
+      "C-1250",
+      "C-1230",
+      "C-1103",
+      "C-1027",
+      "C-1177",
+      "C-1135",
+      "C-1079",
+      "C-1191",
+      "C-1236",
+      "C-1029",
+      "C-1090",
+      "C-1214"
+    ]
+  },
+  {
+    "id": "D-003",
+    "fingerprint": "fp_zu7k1ogi6hzq",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-004",
+    "fingerprint": "fp_9kunffb1ajb8",
+    "linkedCustomerIds": [
+      "C-1218"
+    ]
+  },
+  {
+    "id": "D-005",
+    "fingerprint": "fp_fybi3wlpotm8",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-006",
+    "fingerprint": "fp_pyqdrfjbgh3h",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-007",
+    "fingerprint": "fp_gjsqlfe5xnzg",
+    "linkedCustomerIds": [
+      "C-1085",
+      "C-1203"
+    ]
+  },
+  {
+    "id": "D-008",
+    "fingerprint": "fp_5b0e5en0yu2k",
+    "linkedCustomerIds": [
+      "C-1048",
+      "C-1062",
+      "C-1121"
+    ]
+  },
+  {
+    "id": "D-009",
+    "fingerprint": "fp_ltalchvw48ak",
+    "linkedCustomerIds": [
+      "C-1230",
+      "C-1238"
+    ]
+  },
+  {
+    "id": "D-010",
+    "fingerprint": "fp_7qhmb8b76jnx",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-011",
+    "fingerprint": "fp_hnbuiofirr4m",
+    "linkedCustomerIds": [
+      "C-1141"
+    ]
+  },
+  {
+    "id": "D-012",
+    "fingerprint": "fp_fw9s3516zmql",
+    "linkedCustomerIds": [
+      "C-1117"
+    ]
+  },
+  {
+    "id": "D-013",
+    "fingerprint": "fp_mrzgtkn5121r",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-014",
+    "fingerprint": "fp_ugy1mwxe2kc6",
+    "linkedCustomerIds": [
+      "C-1104",
+      "C-1164",
+      "C-1193"
+    ]
+  },
+  {
+    "id": "D-015",
+    "fingerprint": "fp_q0s7wzbhlu1l",
+    "linkedCustomerIds": [
+      "C-1163",
+      "C-1221"
+    ]
+  },
+  {
+    "id": "D-016",
+    "fingerprint": "fp_wpenxxjuhaua",
+    "linkedCustomerIds": [
+      "C-1212"
+    ]
+  },
+  {
+    "id": "D-017",
+    "fingerprint": "fp_vn3uo9eysn7n",
+    "linkedCustomerIds": [
+      "C-1083",
+      "C-1101"
+    ]
+  },
+  {
+    "id": "D-018",
+    "fingerprint": "fp_g9re01uummd5",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-019",
+    "fingerprint": "fp_5cr0hh2kuypb",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-020",
+    "fingerprint": "fp_sba3sizc87cv",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-021",
+    "fingerprint": "fp_be4g0truwzf9",
+    "linkedCustomerIds": [
+      "C-1203",
+      "C-1025",
+      "C-1233",
+      "C-1133",
+      "C-1198",
+      "C-1039",
+      "C-1223",
+      "C-1134",
+      "C-1062",
+      "C-1143",
+      "C-1119",
+      "C-1091"
+    ]
+  },
+  {
+    "id": "D-022",
+    "fingerprint": "fp_u5dzt35hxgbo",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-023",
+    "fingerprint": "fp_daigu1okfmx8",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-024",
+    "fingerprint": "fp_adqchdteqvyr",
+    "linkedCustomerIds": [
+      "C-1180"
+    ]
+  },
+  {
+    "id": "D-025",
+    "fingerprint": "fp_ki3hiuj02h77",
+    "linkedCustomerIds": [
+      "C-1059"
+    ]
+  },
+  {
+    "id": "D-026",
+    "fingerprint": "fp_p45ru4ofqsfw",
+    "linkedCustomerIds": [
+      "C-1152"
+    ]
+  },
+  {
+    "id": "D-027",
+    "fingerprint": "fp_9pnee5dnan3y",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-028",
+    "fingerprint": "fp_m5gvn76ut3j6",
+    "linkedCustomerIds": [
+      "C-1117",
+      "C-1187",
+      "C-1190",
+      "C-1156",
+      "C-1123",
+      "C-1188",
+      "C-1244",
+      "C-1209",
+      "C-1077",
+      "C-1194",
+      "C-1176",
+      "C-1183",
+      "C-1227",
+      "C-1115",
+      "C-1071",
+      "C-1035",
+      "C-1104",
+      "C-1145"
+    ]
+  },
+  {
+    "id": "D-029",
+    "fingerprint": "fp_gioxy26mzmer",
+    "linkedCustomerIds": [
+      "C-1124"
+    ]
+  },
+  {
+    "id": "D-030",
+    "fingerprint": "fp_1ktgj3ghpb3l",
+    "linkedCustomerIds": [
+      "C-1126",
+      "C-1139",
+      "C-1174"
+    ]
+  },
+  {
+    "id": "D-031",
+    "fingerprint": "fp_rb472wqh9fw1",
+    "linkedCustomerIds": [
+      "C-1222"
+    ]
+  },
+  {
+    "id": "D-032",
+    "fingerprint": "fp_njz616vd2rxg",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-033",
+    "fingerprint": "fp_dy1msmzlr757",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-034",
+    "fingerprint": "fp_1gdphohdcrpe",
+    "linkedCustomerIds": [
+      "C-1069",
+      "C-1120",
+      "C-1155"
+    ]
+  },
+  {
+    "id": "D-035",
+    "fingerprint": "fp_8grozzzgor5n",
+    "linkedCustomerIds": [
+      "C-1054",
+      "C-1243",
+      "C-1244"
+    ]
+  },
+  {
+    "id": "D-036",
+    "fingerprint": "fp_knwssagl64tp",
+    "linkedCustomerIds": [
+      "C-1079"
+    ]
+  },
+  {
+    "id": "D-037",
+    "fingerprint": "fp_kueklv3ja41v",
+    "linkedCustomerIds": [
+      "C-1097"
+    ]
+  },
+  {
+    "id": "D-038",
+    "fingerprint": "fp_blqekaw4a5p4",
+    "linkedCustomerIds": [
+      "C-1070",
+      "C-1133"
+    ]
+  },
+  {
+    "id": "D-039",
+    "fingerprint": "fp_hcbso76kjggt",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-040",
+    "fingerprint": "fp_v25w8q5qx3aw",
+    "linkedCustomerIds": [
+      "C-1099",
+      "C-1072",
+      "C-1170",
+      "C-1204",
+      "C-1217",
+      "C-1163",
+      "C-1053",
+      "C-1081",
+      "C-1202",
+      "C-1208"
+    ]
+  },
+  {
+    "id": "D-041",
+    "fingerprint": "fp_tv74hr7bj0oj",
+    "linkedCustomerIds": [
+      "C-1129"
+    ]
+  },
+  {
+    "id": "D-042",
+    "fingerprint": "fp_w5bp1xnfmygr",
+    "linkedCustomerIds": [
+      "C-1014",
+      "C-1038"
+    ]
+  },
+  {
+    "id": "D-043",
+    "fingerprint": "fp_827lqwvz0rtm",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-044",
+    "fingerprint": "fp_c7vh13wsha5j",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-045",
+    "fingerprint": "fp_3j7s9kt5sesa",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-046",
+    "fingerprint": "fp_3cnshd5ta1wa",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-047",
+    "fingerprint": "fp_dqiws69jfrjm",
+    "linkedCustomerIds": [
+      "C-1107"
+    ]
+  },
+  {
+    "id": "D-048",
+    "fingerprint": "fp_1fsoc4wpy1zg",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-049",
+    "fingerprint": "fp_qttl1uimqi09",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-050",
+    "fingerprint": "fp_mttft38ly1gi",
+    "linkedCustomerIds": [
+      "C-1044",
+      "C-1182"
+    ]
+  },
+  {
+    "id": "D-051",
+    "fingerprint": "fp_72u6w3w13003",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-052",
+    "fingerprint": "fp_b9b0fitp6xi8",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-053",
+    "fingerprint": "fp_sdziza373dfd",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-054",
+    "fingerprint": "fp_rgvgs4vdh6dn",
+    "linkedCustomerIds": [
+      "C-1222",
+      "C-1174",
+      "C-1043",
+      "C-1066",
+      "C-1146",
+      "C-1216",
+      "C-1137",
+      "C-1112",
+      "C-1181",
+      "C-1180",
+      "C-1149",
+      "C-1071"
+    ]
+  },
+  {
+    "id": "D-055",
+    "fingerprint": "fp_7j95iojtta5m",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-056",
+    "fingerprint": "fp_heajh7gpng4b",
+    "linkedCustomerIds": [
+      "C-1233"
+    ]
+  },
+  {
+    "id": "D-057",
+    "fingerprint": "fp_62zdhtz4lp8q",
+    "linkedCustomerIds": [
+      "C-1077"
+    ]
+  },
+  {
+    "id": "D-058",
+    "fingerprint": "fp_2h1jbljpk68m",
+    "linkedCustomerIds": [
+      "C-1012",
+      "C-1246"
+    ]
+  },
+  {
+    "id": "D-059",
+    "fingerprint": "fp_44ssg5xrzyg3",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-060",
+    "fingerprint": "fp_01jbs3hyatc2",
+    "linkedCustomerIds": [
+      "C-1072"
+    ]
+  },
+  {
+    "id": "D-061",
+    "fingerprint": "fp_cwi33rakw66n",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-062",
+    "fingerprint": "fp_w7y6eljwv3ir",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-063",
+    "fingerprint": "fp_tze4y4l67qiu",
+    "linkedCustomerIds": [
+      "C-1044",
+      "C-1164",
+      "C-1249",
+      "C-1018",
+      "C-1101",
+      "C-1240",
+      "C-1212",
+      "C-1093",
+      "C-1007",
+      "C-1014",
+      "C-1153",
+      "C-1038",
+      "C-1226",
+      "C-1195",
+      "C-1124",
+      "C-1039"
+    ]
+  },
+  {
+    "id": "D-064",
+    "fingerprint": "fp_wzecbkogg54u",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-065",
+    "fingerprint": "fp_opgly0edqhce",
+    "linkedCustomerIds": [
+      "C-1064"
+    ]
+  },
+  {
+    "id": "D-066",
+    "fingerprint": "fp_2xblug2yi9mm",
+    "linkedCustomerIds": [
+      "C-1035",
+      "C-1100"
+    ]
+  },
+  {
+    "id": "D-067",
+    "fingerprint": "fp_q52somk17mfb",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-068",
+    "fingerprint": "fp_gnciax08evl7",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-069",
+    "fingerprint": "fp_5mn46ww9ie21",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-070",
+    "fingerprint": "fp_yefi7tgh5od8",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-071",
+    "fingerprint": "fp_vbosqywekse8",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-072",
+    "fingerprint": "fp_p76tzd8h4qbc",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-073",
+    "fingerprint": "fp_v0qmvdin9vdp",
+    "linkedCustomerIds": [
+      "C-1010",
+      "C-1033",
+      "C-1167",
+      "C-1227",
+      "C-1249"
+    ]
+  },
+  {
+    "id": "D-074",
+    "fingerprint": "fp_5ecwe0f94irc",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-075",
+    "fingerprint": "fp_gc56ow14tobd",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-076",
+    "fingerprint": "fp_bm8yb94dyyi1",
+    "linkedCustomerIds": [
+      "C-1138",
+      "C-1171"
+    ]
+  },
+  {
+    "id": "D-077",
+    "fingerprint": "fp_19ih2hxwmv1d",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-078",
+    "fingerprint": "fp_pofao08capde",
+    "linkedCustomerIds": [
+      "C-1081"
+    ]
+  },
+  {
+    "id": "D-079",
+    "fingerprint": "fp_di2lscuwpsiz",
+    "linkedCustomerIds": []
+  },
+  {
+    "id": "D-080",
+    "fingerprint": "fp_4heeq8n5wo2t",
+    "linkedCustomerIds": []
+  }
+]
