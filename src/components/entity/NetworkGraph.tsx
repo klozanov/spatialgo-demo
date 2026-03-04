@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo } from "react";
+import { useTheme } from "@/components/providers/ThemeProvider";
 import {
   ReactFlow,
   Background,
@@ -27,31 +28,56 @@ type FlowEdge = Edge<GraphEdgeData>;
 function CustomNode({ data, selected }: NodeProps) {
   const nodeData = data as unknown as GraphNodeData;
   const baseColor = NODE_COLORS[nodeData.nodeType] ?? "#6B7280";
-  const color = nodeData.suspicious ? (nodeData.nodeType === "CLUSTER" ? "#EF4444" : baseColor) : baseColor;
+  const isSusp = nodeData.suspicious;
+  const color = isSusp ? "#EF4444" : baseColor;
 
   return (
-    <div className="flex flex-col items-center gap-0.5" style={{ minWidth: 80, maxWidth: 110 }}>
+    <div className="flex flex-col items-center gap-0.5 relative" style={{ minWidth: 80, maxWidth: 110 }}>
+      {/* Warning badge — top-right corner */}
+      {isSusp && (
+        <div
+          className="absolute -top-2 -right-2 z-10 flex items-center justify-center rounded-full text-[9px] font-bold"
+          style={{
+            width: 16,
+            height: 16,
+            background: "#EF4444",
+            color: "#fff",
+            boxShadow: "0 0 6px rgba(239,68,68,0.8)",
+          }}
+        >
+          !
+        </div>
+      )}
+
       <div
-        className="rounded-lg px-2 py-1.5 text-center transition-all cursor-pointer"
+        className={`rounded-lg px-2 py-1.5 text-center transition-all cursor-pointer${isSusp ? " suspicious-node-glow" : ""}`}
         style={{
-          background: `${color}18`,
-          border: `2px solid ${nodeData.suspicious ? color : `${color}50`}`,
+          background: isSusp
+            ? "rgba(239,68,68,0.18)"
+            : `${baseColor}14`,
+          border: isSusp
+            ? "2px solid rgba(239,68,68,0.9)"
+            : `1.5px solid ${baseColor}45`,
           boxShadow: selected
-            ? `0 0 12px ${color}60`
-            : nodeData.suspicious
-            ? `0 0 6px ${color}30`
+            ? `0 0 16px ${color}80, 0 0 32px ${color}30`
             : "none",
           minWidth: 70,
         }}
       >
-        <div className="text-[10px] font-bold uppercase tracking-wider mb-0.5" style={{ color }}>
+        <div
+          className="text-[10px] font-bold uppercase tracking-wider mb-0.5"
+          style={{ color: isSusp ? "#FCA5A5" : baseColor }}
+        >
           {nodeData.nodeType}
         </div>
         <div className="text-[11px] font-medium text-white leading-tight truncate max-w-[90px]">
           {nodeData.label}
         </div>
         {nodeData.subLabel && (
-          <div className="text-[9px] text-gray-500 truncate max-w-[90px] mt-0.5">
+          <div
+            className="text-[9px] truncate max-w-[90px] mt-0.5"
+            style={{ color: isSusp ? "rgba(252,165,165,0.7)" : "#6B7280" }}
+          >
             {nodeData.subLabel}
           </div>
         )}
@@ -85,6 +111,8 @@ function GraphInner({
   onNodeSelect,
   focusNodeId,
 }: InnerProps) {
+  const { theme } = useTheme();
+  const normalEdgeStroke = theme === "dark" ? "rgba(255,255,255,0.15)" : "rgba(0,0,0,0.18)";
   const suspiciousSet = useMemo(() => new Set(suspiciousNodeIds), [suspiciousNodeIds]);
   const suspiciousEdgeSet = useMemo(() => new Set(suspiciousEdgeIds), [suspiciousEdgeIds]);
 
@@ -106,15 +134,25 @@ function GraphInner({
       return {
         ...e,
         style: {
-          stroke: isSuspicious ? "#EF4444" : "rgba(255,255,255,0.15)",
-          strokeWidth: isSuspicious ? 3 : 1.5,
+          stroke: isSuspicious ? "#FF3B30" : normalEdgeStroke,
+          strokeWidth: isSuspicious ? 4 : 1.5,
+          filter: isSuspicious
+            ? "drop-shadow(0 0 5px rgba(255,59,48,0.9)) drop-shadow(0 0 12px rgba(255,59,48,0.45))"
+            : "none",
         },
         animated: isSuspicious,
-        labelStyle: { fill: "#9CA3AF", fontSize: 9 },
-        labelBgStyle: { fill: "transparent" },
+        labelStyle: {
+          fill: isSuspicious ? "#FCA5A5" : "#9CA3AF",
+          fontSize: 9,
+          fontWeight: isSuspicious ? 700 : 400,
+        },
+        labelBgStyle: {
+          fill: isSuspicious ? "rgba(239,68,68,0.15)" : "transparent",
+          rx: 3,
+        },
       };
     }),
-    [initialEdges, highlightSuspicious, suspiciousEdgeSet]
+    [initialEdges, highlightSuspicious, suspiciousEdgeSet, normalEdgeStroke]
   );
 
   const [nodes, setNodes, onNodesChange] = useNodesState(styledNodes);

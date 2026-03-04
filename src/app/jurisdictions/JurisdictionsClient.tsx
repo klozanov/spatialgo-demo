@@ -56,7 +56,7 @@ export function JurisdictionsClient({ rows, top5 }: Props) {
               data={chartData}
               margin={{ top: 5, right: 10, left: 10, bottom: 5 }}
             >
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" />
+              <CartesianGrid strokeDasharray="3 3" stroke="var(--chart-grid)" />
               <XAxis
                 dataKey="name"
                 tick={{ fontSize: 11, fill: "#9CA3AF" }}
@@ -72,10 +72,11 @@ export function JurisdictionsClient({ rows, top5 }: Props) {
               <Tooltip
                 formatter={(val: number | undefined) => [formatCurrency(val ?? 0), "Volume"]}
                 contentStyle={{
-                  background: "#111827",
-                  border: "1px solid rgba(255,255,255,0.1)",
+                  background: "var(--card)",
+                  border: "1px solid var(--border)",
                   borderRadius: 8,
                   fontSize: 12,
+                  color: "var(--foreground)",
                 }}
               />
               <Bar dataKey="amount" radius={[4, 4, 0, 0]}>

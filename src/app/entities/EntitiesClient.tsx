@@ -85,7 +85,7 @@ export function EntitiesClient({ rows }: Props) {
   }
 
   function SortIcon({ col }: { col: SortKey }) {
-    if (sortKey !== col) return <ChevronUp className="w-3 h-3 text-gray-600" />;
+    if (sortKey !== col) return <ChevronUp className="w-3 h-3 text-muted-foreground/40" />;
     return sortDir === "desc" ? (
       <ChevronDown className="w-3 h-3 text-blue-400" />
     ) : (
@@ -98,22 +98,22 @@ export function EntitiesClient({ rows }: Props) {
       {/* Filters */}
       <div className="flex items-center gap-3 flex-wrap">
         <div className="relative flex-1 min-w-48">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
           <input
             type="text"
             placeholder="Search by name or ID…"
             value={search}
             onChange={(e) => { setSearch(e.target.value); setPage(1); }}
-            className="w-full pl-9 pr-3 py-2 rounded-lg text-sm text-gray-200 placeholder-gray-500 border outline-none focus:border-blue-500"
-            style={{ background: "#111827", borderColor: "rgba(255,255,255,0.1)" }}
+            className="w-full pl-9 pr-3 py-2 rounded-lg text-sm text-foreground placeholder:text-muted-foreground border outline-none focus:border-blue-500"
+            style={{ background: "var(--input)", borderColor: "var(--border)" }}
           />
         </div>
 
         <select
           value={segmentFilter}
           onChange={(e) => { setSegmentFilter(e.target.value); setPage(1); }}
-          className="px-3 py-2 rounded-lg text-sm border text-gray-300 outline-none"
-          style={{ background: "#111827", borderColor: "rgba(255,255,255,0.1)" }}
+          className="px-3 py-2 rounded-lg text-sm border text-foreground outline-none"
+          style={{ background: "var(--input)", borderColor: "var(--border)" }}
         >
           {segments.map((s) => <option key={s} value={s}>{s === "ALL" ? "All Segments" : s}</option>)}
         </select>
@@ -121,8 +121,8 @@ export function EntitiesClient({ rows }: Props) {
         <select
           value={riskFilter}
           onChange={(e) => { setRiskFilter(e.target.value as RiskBand | "ALL"); setPage(1); }}
-          className="px-3 py-2 rounded-lg text-sm border text-gray-300 outline-none"
-          style={{ background: "#111827", borderColor: "rgba(255,255,255,0.1)" }}
+          className="px-3 py-2 rounded-lg text-sm border text-foreground outline-none"
+          style={{ background: "var(--input)", borderColor: "var(--border)" }}
         >
           <option value="ALL">All Risk Levels</option>
           <option value="HIGH">High</option>
@@ -133,45 +133,45 @@ export function EntitiesClient({ rows }: Props) {
         <select
           value={exposureFilter}
           onChange={(e) => { setExposureFilter(e.target.value as "ALL" | "YES" | "NO"); setPage(1); }}
-          className="px-3 py-2 rounded-lg text-sm border text-gray-300 outline-none"
-          style={{ background: "#111827", borderColor: "rgba(255,255,255,0.1)" }}
+          className="px-3 py-2 rounded-lg text-sm border text-foreground outline-none"
+          style={{ background: "var(--input)", borderColor: "var(--border)" }}
         >
           <option value="ALL">All Exposure</option>
           <option value="YES">Exchange Exposed</option>
           <option value="NO">Not Exposed</option>
         </select>
 
-        <span className="text-xs text-gray-500">{filtered.length} results</span>
+        <span className="text-xs text-muted-foreground">{filtered.length} results</span>
       </div>
 
       {/* Table */}
-      <div className="rounded-2xl border overflow-hidden" style={{ background: "#111827", borderColor: "rgba(255,255,255,0.07)" }}>
+      <div className="rounded-2xl border overflow-hidden" style={{ background: "var(--card)", borderColor: "var(--border)" }}>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
-              <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.07)" }}>
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">ID</th>
+              <tr style={{ borderBottom: "1px solid var(--border)" }}>
+                <th className="px-4 py-3 text-left text-xs font-medium text-muted-foreground uppercase tracking-wider">ID</th>
                 <th
-                  className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:text-gray-300"
+                  className="px-4 py-3 text-left text-xs font-medium text-muted-foreground uppercase tracking-wider cursor-pointer hover:text-foreground"
                   onClick={() => toggleSort("name")}
                 >
                   <div className="flex items-center gap-1">Name <SortIcon col="name" /></div>
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Segment</th>
+                <th className="px-4 py-3 text-left text-xs font-medium text-muted-foreground uppercase tracking-wider">Segment</th>
                 <th
-                  className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:text-gray-300"
+                  className="px-4 py-3 text-left text-xs font-medium text-muted-foreground uppercase tracking-wider cursor-pointer hover:text-foreground"
                   onClick={() => toggleSort("score")}
                 >
                   <div className="flex items-center gap-1">Risk Score <SortIcon col="score" /></div>
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Exchange Exp.</th>
+                <th className="px-4 py-3 text-left text-xs font-medium text-muted-foreground uppercase tracking-wider">Exchange Exp.</th>
                 <th
-                  className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:text-gray-300"
+                  className="px-4 py-3 text-left text-xs font-medium text-muted-foreground uppercase tracking-wider cursor-pointer hover:text-foreground"
                   onClick={() => toggleSort("networkSize")}
                 >
                   <div className="flex items-center gap-1">Network <SortIcon col="networkSize" /></div>
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Last Activity</th>
+                <th className="px-4 py-3 text-left text-xs font-medium text-muted-foreground uppercase tracking-wider">Last Activity</th>
               </tr>
             </thead>
             <tbody>
@@ -179,22 +179,24 @@ export function EntitiesClient({ rows }: Props) {
                 <tr
                   key={customer.id}
                   onClick={() => router.push(`/entity/${customer.id}`)}
-                  className="cursor-pointer transition-colors hover:bg-white/[0.03]"
-                  style={{ borderBottom: "1px solid rgba(255,255,255,0.04)" }}
+                  className="cursor-pointer transition-colors"
+                  style={{ borderBottom: "1px solid var(--border)" }}
+                  onMouseEnter={(e) => (e.currentTarget.style.background = "var(--hover-row)")}
+                  onMouseLeave={(e) => (e.currentTarget.style.background = "")}
                 >
-                  <td className="px-4 py-3 font-mono text-xs text-blue-400">{customer.id}</td>
-                  <td className="px-4 py-3 text-gray-200">{customer.name}</td>
-                  <td className="px-4 py-3 text-gray-400">{customer.segment}</td>
+                  <td className="px-4 py-3 font-mono text-xs text-blue-500">{customer.id}</td>
+                  <td className="px-4 py-3 text-foreground font-medium">{customer.name}</td>
+                  <td className="px-4 py-3 text-muted-foreground">{customer.segment}</td>
                   <td className="px-4 py-3">
                     <RiskBadge band={result.band} score={result.score} size="sm" />
                   </td>
                   <td className="px-4 py-3">
-                    <span className={exchangeExposed ? "text-amber-400" : "text-gray-600"}>
+                    <span className={exchangeExposed ? "text-amber-500" : "text-muted-foreground"}>
                       {exchangeExposed ? "Yes" : "No"}
                     </span>
                   </td>
-                  <td className="px-4 py-3 text-gray-400">{result.networkSize}</td>
-                  <td className="px-4 py-3 text-xs text-gray-500">
+                  <td className="px-4 py-3 text-muted-foreground">{result.networkSize}</td>
+                  <td className="px-4 py-3 text-xs text-muted-foreground">
                     {result.lastSuspiciousActivity ? formatDateTime(result.lastSuspiciousActivity) : "—"}
                   </td>
                 </tr>
@@ -205,24 +207,24 @@ export function EntitiesClient({ rows }: Props) {
 
         {/* Pagination */}
         {totalPages > 1 && (
-          <div className="px-4 py-3 border-t flex items-center justify-between" style={{ borderColor: "rgba(255,255,255,0.07)" }}>
-            <span className="text-xs text-gray-500">
+          <div className="px-4 py-3 border-t flex items-center justify-between" style={{ borderColor: "var(--border)" }}>
+            <span className="text-xs text-muted-foreground">
               Page {page} of {totalPages} · {filtered.length} entities
             </span>
             <div className="flex gap-2">
               <button
                 onClick={() => setPage((p) => Math.max(1, p - 1))}
                 disabled={page === 1}
-                className="px-3 py-1.5 text-xs rounded-lg border text-gray-400 hover:text-gray-200 disabled:opacity-40 disabled:cursor-not-allowed"
-                style={{ borderColor: "rgba(255,255,255,0.1)" }}
+                className="px-3 py-1.5 text-xs rounded-lg border text-muted-foreground hover:text-foreground disabled:opacity-40 disabled:cursor-not-allowed"
+                style={{ borderColor: "var(--border)" }}
               >
                 Previous
               </button>
               <button
                 onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
                 disabled={page === totalPages}
-                className="px-3 py-1.5 text-xs rounded-lg border text-gray-400 hover:text-gray-200 disabled:opacity-40 disabled:cursor-not-allowed"
-                style={{ borderColor: "rgba(255,255,255,0.1)" }}
+                className="px-3 py-1.5 text-xs rounded-lg border text-muted-foreground hover:text-foreground disabled:opacity-40 disabled:cursor-not-allowed"
+                style={{ borderColor: "var(--border)" }}
               >
                 Next
               </button>

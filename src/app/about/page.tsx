@@ -2,8 +2,8 @@ import { Shield, Database, GitMerge, BarChart3, Network } from "lucide-react";
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <div className="rounded-2xl border p-6 space-y-4" style={{ background: "#111827", borderColor: "rgba(255,255,255,0.07)" }}>
-      <h2 className="text-base font-bold text-white">{title}</h2>
+    <div className="rounded-2xl border p-6 space-y-4" style={{ background: "var(--card)", borderColor: "var(--border)" }}>
+      <h2 className="text-base font-bold text-foreground">{title}</h2>
       {children}
     </div>
   );
@@ -16,8 +16,8 @@ function Block({ icon, title, description, color }: { icon: React.ReactNode; tit
         <div style={{ color }}>{icon}</div>
       </div>
       <div>
-        <div className="text-sm font-semibold text-white">{title}</div>
-        <div className="text-xs text-gray-400 mt-0.5 leading-relaxed">{description}</div>
+        <div className="text-sm font-semibold text-foreground">{title}</div>
+        <div className="text-xs text-muted-foreground mt-0.5 leading-relaxed">{description}</div>
       </div>
     </div>
   );
@@ -27,16 +27,16 @@ export default function AboutPage() {
   return (
     <div className="p-6 space-y-6 max-w-4xl">
       <div>
-        <h1 className="text-xl font-bold text-white">About This Demo</h1>
-        <p className="text-sm text-gray-400 mt-1">Architecture, data model, and context for SpatialGO Cross-Rail Intelligence</p>
+        <h1 className="text-xl font-bold text-foreground">About This Demo</h1>
+        <p className="text-sm text-muted-foreground mt-1">Architecture, data model, and context for SpatialGO Cross-Rail Intelligence</p>
       </div>
 
       {/* Pitch */}
       <Section title="What is SpatialGO Cross-Rail Intelligence?">
-        <p className="text-sm text-gray-300 leading-relaxed">
+        <p className="text-sm text-foreground/80 leading-relaxed">
           A correlation layer that connects <strong className="text-blue-400">SEPA</strong> + <strong className="text-teal-400">card rails</strong> with <strong className="text-amber-400">exchange exposure</strong> and <strong className="text-purple-400">on-chain risk clusters</strong> to expose laundering networks and reduce AML false positives.
         </p>
-        <p className="text-sm text-gray-400 leading-relaxed">
+        <p className="text-sm text-muted-foreground leading-relaxed">
           Traditional banking AML systems are siloed: card fraud engines, SEPA/TM systems, and crypto tools don't talk to each other. Criminals exploit this by moving money across rails — SEPA → Exchange → On-chain (mixer/bridge) → Payout. Each step looks benign in isolation; together, it's clearly suspicious.
         </p>
       </Section>
@@ -73,20 +73,20 @@ export default function AboutPage() {
 
       {/* Architecture diagram */}
       <Section title="Architecture Diagram">
-        <div className="rounded-xl p-4 font-mono text-xs text-gray-400 leading-relaxed" style={{ background: "#0B0F1A" }}>
-          <div className="text-gray-300 mb-3">[ Data Sources ]</div>
+        <div className="rounded-xl p-4 font-mono text-xs text-muted-foreground leading-relaxed" style={{ background: "var(--background)" }}>
+          <div className="text-foreground/70 mb-3">[ Data Sources ]</div>
           <div className="flex gap-4 mb-4">
             {["SEPA Transfers", "Card Transactions", "Exchange Data", "Blockchain (on-chain)", "Device Fingerprints"].map((s) => (
               <div key={s} className="px-2 py-1 rounded border text-center text-[10px]" style={{ borderColor: "rgba(37,99,235,0.3)", color: "#60A5FA" }}>{s}</div>
             ))}
           </div>
-          <div className="text-center text-gray-600 my-2">▼ Static JSON → dataStore.ts (indexes)</div>
+          <div className="text-center text-muted-foreground/50 my-2">▼ Static JSON → dataStore.ts (indexes)</div>
           <div className="flex gap-4 my-3 justify-center">
             {["networkAnalysis.ts", "riskEngine.v2.ts", "graphBuilder.v2.ts"].map((m) => (
               <div key={m} className="px-3 py-1.5 rounded border text-[10px]" style={{ borderColor: "rgba(139,92,246,0.3)", color: "#A78BFA" }}>{m}</div>
             ))}
           </div>
-          <div className="text-center text-gray-600 my-2">▼ Computed results</div>
+          <div className="text-center text-muted-foreground/50 my-2">▼ Computed results</div>
           <div className="flex gap-3 justify-center">
             {["/dashboard", "/entities", "/entity/[id]", "/networks", "/evidence"].map((r) => (
               <div key={r} className="px-2 py-1 rounded border text-[10px]" style={{ borderColor: "rgba(20,184,166,0.3)", color: "#34D399" }}>{r}</div>
@@ -116,8 +116,8 @@ export default function AboutPage() {
             ["Exchange → ONCHAIN within 24h", "+5"],
             ["Exchange → PAYOUT within 48h", "+5"],
           ].map(([signal, pts]) => (
-            <div key={signal} className="flex justify-between items-center px-3 py-1.5 rounded-lg" style={{ background: "rgba(255,255,255,0.03)" }}>
-              <span className="text-gray-400">{signal}</span>
+            <div key={signal} className="flex justify-between items-center px-3 py-1.5 rounded-lg" style={{ background: "var(--muted)" }}>
+              <span className="text-muted-foreground">{signal}</span>
               <span className="text-amber-400 font-bold">{pts}</span>
             </div>
           ))}
@@ -137,9 +137,9 @@ export default function AboutPage() {
             { name: "Merchant", fields: "id, name, mcc?, category?, riskLevel?" },
             { name: "Device", fields: "id, fingerprint, linkedCustomerIds[]" },
           ].map((schema) => (
-            <div key={schema.name} className="rounded-lg p-3" style={{ background: "rgba(255,255,255,0.03)" }}>
-              <div className="font-bold text-white mb-1">{schema.name}</div>
-              <div className="text-gray-500 leading-relaxed">{schema.fields}</div>
+            <div key={schema.name} className="rounded-lg p-3" style={{ background: "var(--muted)" }}>
+              <div className="font-bold text-foreground mb-1">{schema.name}</div>
+              <div className="text-muted-foreground leading-relaxed">{schema.fields}</div>
             </div>
           ))}
         </div>

@@ -41,12 +41,12 @@ export function Timeline({ transactions }: Props) {
       )}
       {groupEntries.map(([date, txs]) => (
         <div key={date}>
-          <div className="text-xs font-semibold text-gray-500 mb-2 sticky top-0 py-1" style={{ background: "#0d1220" }}>
+          <div className="text-xs font-semibold text-gray-500 mb-2 sticky top-0 py-1" style={{ background: "var(--background)" }}>
             {new Date(date).toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" })}
             <span className="ml-2 text-gray-600">({txs.length} txs)</span>
           </div>
           <div className="relative pl-4 space-y-2">
-            <div className="absolute left-1.5 top-0 bottom-0 w-px" style={{ background: "rgba(255,255,255,0.07)" }} />
+            <div className="absolute left-1.5 top-0 bottom-0 w-px" style={{ background: "var(--border)" }} />
             {txs.map((tx) => {
               const color = TYPE_COLORS[tx.type] ?? "#6B7280";
               const bg = TYPE_BG[tx.type] ?? "rgba(107,114,128,0.15)";
@@ -65,11 +65,11 @@ export function Timeline({ transactions }: Props) {
                         {tx.type}
                       </span>
                       {tx.tag && (
-                        <span className="text-[9px] text-gray-500 bg-white/5 px-1.5 py-0.5 rounded">
+                        <span className="text-[9px] text-gray-500 bg-black/5 dark:bg-white/5 px-1.5 py-0.5 rounded">
                           {tx.tag}
                         </span>
                       )}
-                      <span className="text-xs font-bold text-white ml-auto">
+                      <span className="text-xs font-bold text-foreground ml-auto">
                         {formatCurrency(tx.amount)}
                       </span>
                     </div>

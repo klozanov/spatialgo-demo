@@ -36,22 +36,22 @@ export default function NetworksPage() {
   return (
     <div className="p-6 space-y-6">
       <div>
-        <h1 className="text-xl font-bold text-white">Detected Networks</h1>
-        <p className="text-sm text-gray-400 mt-1">
+        <h1 className="text-xl font-bold text-foreground">Detected Networks</h1>
+        <p className="text-sm text-muted-foreground mt-1">
           Connected components identified via shared devices, beneficiary overlap, and exchange linkages
         </p>
       </div>
       <div className="flex gap-4 text-sm">
-        <div className="rounded-xl px-4 py-3 border" style={{ background: "#111827", borderColor: "rgba(255,255,255,0.07)" }}>
-          <span className="text-gray-400">Total networks: </span>
-          <span className="text-white font-bold">{networks.length}</span>
+        <div className="rounded-xl px-4 py-3 border" style={{ background: "var(--card)", borderColor: "var(--border)" }}>
+          <span className="text-muted-foreground">Total networks: </span>
+          <span className="text-foreground font-bold">{networks.length}</span>
         </div>
-        <div className="rounded-xl px-4 py-3 border" style={{ background: "#111827", borderColor: "rgba(255,255,255,0.07)" }}>
-          <span className="text-gray-400">Large rings (≥6): </span>
+        <div className="rounded-xl px-4 py-3 border" style={{ background: "var(--card)", borderColor: "var(--border)" }}>
+          <span className="text-muted-foreground">Large rings (≥6): </span>
           <span className="text-red-400 font-bold">{networks.filter((n) => n.size >= 6).length}</span>
         </div>
-        <div className="rounded-xl px-4 py-3 border" style={{ background: "#111827", borderColor: "rgba(255,255,255,0.07)" }}>
-          <span className="text-gray-400">Entities in rings: </span>
+        <div className="rounded-xl px-4 py-3 border" style={{ background: "var(--card)", borderColor: "var(--border)" }}>
+          <span className="text-muted-foreground">Entities in rings: </span>
           <span className="text-amber-400 font-bold">
             {networks.reduce((s, n) => s + n.size, 0)}
           </span>

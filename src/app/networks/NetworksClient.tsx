@@ -36,11 +36,11 @@ function NetworkCard({ network }: { network: NetworkRow }) {
     ? "rgba(239,68,68,0.3)"
     : network.highRiskCount >= 1
     ? "rgba(245,158,11,0.3)"
-    : "rgba(255,255,255,0.07)";
+    : "var(--border)";
 
   const bgColor = network.highRiskCount >= 3
     ? "rgba(239,68,68,0.05)"
-    : "rgba(17,24,39,1)";
+    : "var(--card)";
 
   return (
     <div
@@ -58,8 +58,8 @@ function NetworkCard({ network }: { network: NetworkRow }) {
               <Network className="w-4 h-4" style={{ color: isLarge ? "#EF4444" : "#8B5CF6" }} />
             </div>
             <div>
-              <div className="text-sm font-bold text-white">{network.id}</div>
-              <div className="text-xs text-gray-500">{network.size} entities</div>
+              <div className="text-sm font-bold text-foreground">{network.id}</div>
+              <div className="text-xs text-muted-foreground">{network.size} entities</div>
             </div>
           </div>
 
@@ -81,16 +81,16 @@ function NetworkCard({ network }: { network: NetworkRow }) {
         {/* Stats */}
         <div className="grid grid-cols-3 gap-3 mt-4">
           <div className="text-center">
-            <div className="text-lg font-bold text-white">{network.size}</div>
-            <div className="text-[10px] text-gray-500">Members</div>
+            <div className="text-lg font-bold text-foreground">{network.size}</div>
+            <div className="text-[10px] text-muted-foreground">Members</div>
           </div>
           <div className="text-center">
             <div className="text-lg font-bold text-red-400">{network.highRiskCount}</div>
-            <div className="text-[10px] text-gray-500">High Risk</div>
+            <div className="text-[10px] text-muted-foreground">High Risk</div>
           </div>
           <div className="text-center">
             <div className="text-lg font-bold text-amber-400">{network.topScore}</div>
-            <div className="text-[10px] text-gray-500">Top Score</div>
+            <div className="text-[10px] text-muted-foreground">Top Score</div>
           </div>
         </div>
 
@@ -100,7 +100,7 @@ function NetworkCard({ network }: { network: NetworkRow }) {
             {network.topExchangeNames.map((name) => (
               <span
                 key={name}
-                className="text-[10px] px-2 py-0.5 rounded-full text-amber-400"
+                className="text-[10px] px-2 py-0.5 rounded-full text-amber-500"
                 style={{ background: "rgba(245,158,11,0.1)", border: "1px solid rgba(245,158,11,0.2)" }}
               >
                 {name}
@@ -113,7 +113,7 @@ function NetworkCard({ network }: { network: NetworkRow }) {
         <div className="flex items-center gap-2 mt-4">
           <button
             onClick={() => setExpanded((v) => !v)}
-            className="flex items-center gap-1 text-xs text-gray-400 hover:text-gray-200 transition-colors"
+            className="flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground transition-colors"
           >
             {expanded ? <ChevronDown className="w-3 h-3" /> : <ChevronRight className="w-3 h-3" />}
             {expanded ? "Hide" : "Show"} members
@@ -130,19 +130,21 @@ function NetworkCard({ network }: { network: NetworkRow }) {
 
       {/* Members list */}
       {expanded && (
-        <div className="border-t px-5 py-3 space-y-1.5" style={{ borderColor: "rgba(255,255,255,0.07)" }}>
+        <div className="border-t px-5 py-3 space-y-1.5" style={{ borderColor: "var(--border)" }}>
           {network.members
             .sort((a, b) => b.score - a.score)
             .map((m) => (
               <div
                 key={m.id}
-                className="flex items-center justify-between gap-2 py-1.5 px-2 rounded-lg cursor-pointer hover:bg-white/[0.03] transition-colors"
+                className="flex items-center justify-between gap-2 py-1.5 px-2 rounded-lg cursor-pointer transition-colors"
+                onMouseEnter={(e) => (e.currentTarget.style.background = "var(--hover-row)")}
+                onMouseLeave={(e) => (e.currentTarget.style.background = "")}
                 onClick={() => router.push(`/entity/${m.id}`)}
               >
                 <div className="flex items-center gap-2">
-                  <Users className="w-3 h-3 text-gray-600" />
-                  <span className="font-mono text-[10px] text-blue-400">{m.id}</span>
-                  <span className="text-xs text-gray-300">{m.name}</span>
+                  <Users className="w-3 h-3 text-muted-foreground" />
+                  <span className="font-mono text-[10px] text-blue-500">{m.id}</span>
+                  <span className="text-xs text-foreground">{m.name}</span>
                 </div>
                 <RiskBadge band={m.band as RiskBand} score={m.score} size="sm" />
               </div>
@@ -172,13 +174,13 @@ export function NetworksClient({ networks }: Props) {
             className={`px-3 py-1.5 text-xs rounded-lg border font-medium transition-colors ${
               filter === f
                 ? "bg-blue-600/20 border-blue-500/40 text-blue-400"
-                : "border-white/10 text-gray-400 hover:text-gray-200"
+                : "border-border text-muted-foreground hover:text-foreground"
             }`}
           >
             {f === "ALL" ? "All Networks" : f === "LARGE" ? "Large Rings (≥6)" : "Has High Risk"}
           </button>
         ))}
-        <span className="ml-auto text-xs text-gray-500 self-center">{filtered.length} shown</span>
+        <span className="ml-auto text-xs text-muted-foreground self-center">{filtered.length} shown</span>
       </div>
 
       <div className="grid grid-cols-2 xl:grid-cols-3 gap-4">
@@ -188,7 +190,7 @@ export function NetworksClient({ networks }: Props) {
       </div>
 
       {filtered.length === 0 && (
-        <div className="text-center py-12 text-gray-500">No networks match the current filter</div>
+        <div className="text-center py-12 text-muted-foreground">No networks match the current filter</div>
       )}
     </div>
   );

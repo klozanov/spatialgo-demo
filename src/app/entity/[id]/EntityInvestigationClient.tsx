@@ -61,7 +61,7 @@ export function EntityInvestigationClient({
         {/* Left: Summary */}
         <div
           className="w-64 shrink-0 border-r overflow-y-auto"
-          style={{ borderColor: "rgba(255,255,255,0.07)", background: "#0d1220" }}
+          style={{ borderColor: "var(--border)", background: "var(--background)" }}
         >
           <EntitySummary customer={customer} result={riskResult} />
 
@@ -104,7 +104,7 @@ export function EntityInvestigationClient({
           {/* Graph toolbar */}
           <div
             className="flex items-center gap-3 px-4 py-3 border-b shrink-0"
-            style={{ borderColor: "rgba(255,255,255,0.07)", background: "#0d1220" }}
+            style={{ borderColor: "var(--border)", background: "var(--background)" }}
           >
             <span className="text-sm font-medium text-gray-300">Entity Graph</span>
             <div className="flex-1" />
@@ -140,21 +140,21 @@ export function EntityInvestigationClient({
         {/* Right: Tabs */}
         <div
           className="w-80 shrink-0 border-l flex flex-col"
-          style={{ borderColor: "rgba(255,255,255,0.07)", background: "#0d1220" }}
+          style={{ borderColor: "var(--border)", background: "var(--background)" }}
         >
-          {/* Tab headers — scrollable */}
+          {/* Tab headers — pill style, wraps to 2 rows */}
           <div
-            className="flex border-b shrink-0 overflow-x-auto"
-            style={{ borderColor: "rgba(255,255,255,0.07)" }}
+            className="flex flex-wrap gap-1 px-2 py-2 border-b shrink-0"
+            style={{ borderColor: "var(--border)" }}
           >
             {tabs.map((tab) => (
               <button
                 key={tab.key}
                 onClick={() => setActiveTab(tab.key)}
-                className={`shrink-0 px-3 py-3 text-xs font-medium transition-colors border-b-2 ${
+                className={`px-2.5 py-1 text-xs font-medium rounded-md transition-colors ${
                   activeTab === tab.key
-                    ? "border-blue-500 text-blue-400"
-                    : "border-transparent text-gray-500 hover:text-gray-300"
+                    ? "bg-blue-500/20 text-blue-400 ring-1 ring-blue-500/30"
+                    : "text-gray-500 hover:text-gray-300 hover:bg-white/5"
                 }`}
               >
                 {tab.label}

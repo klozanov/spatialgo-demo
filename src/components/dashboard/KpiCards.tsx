@@ -32,17 +32,17 @@ function KpiCard({ label, value, icon, color, suffix }: KpiCardProps) {
   return (
     <div
       className="rounded-2xl p-5 border flex flex-col gap-3"
-      style={{ background: "#111827", borderColor: "rgba(255,255,255,0.07)" }}
+      style={{ background: "var(--card)", borderColor: "var(--border)" }}
     >
       <div className="flex items-center justify-between">
-        <span className="text-xs font-medium text-gray-400 uppercase tracking-wider">{label}</span>
+        <span className="text-xs font-medium text-muted-foreground uppercase tracking-wider">{label}</span>
         <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{ background: `${color}20` }}>
           <div style={{ color }}>{icon}</div>
         </div>
       </div>
       <div className="flex items-end gap-1">
-        <span className="text-3xl font-bold text-white">{displayed.toLocaleString()}</span>
-        {suffix && <span className="text-sm text-gray-500 mb-1">{suffix}</span>}
+        <span className="text-3xl font-bold text-foreground">{displayed.toLocaleString()}</span>
+        {suffix && <span className="text-sm text-muted-foreground mb-1">{suffix}</span>}
       </div>
     </div>
   );

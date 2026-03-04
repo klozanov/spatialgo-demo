@@ -82,21 +82,21 @@ export function EvidenceExplorerClient({ evidenceItems }: Props) {
       {/* Filters */}
       <div className="flex items-center gap-3 flex-wrap">
         <div className="relative flex-1 min-w-64">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
           <input
             type="text"
             placeholder="Search evidence, customers…"
             value={search}
             onChange={(e) => { setSearch(e.target.value); setPage(1); }}
-            className="w-full pl-9 pr-3 py-2 rounded-lg text-sm text-gray-200 placeholder-gray-500 border outline-none focus:border-blue-500"
-            style={{ background: "#111827", borderColor: "rgba(255,255,255,0.1)" }}
+            className="w-full pl-9 pr-3 py-2 rounded-lg text-sm text-foreground placeholder:text-muted-foreground border outline-none focus:border-blue-500"
+            style={{ background: "var(--input)", borderColor: "var(--border)" }}
           />
         </div>
         <select
           value={severityFilter}
           onChange={(e) => { setSeverityFilter(e.target.value as RiskBand | "ALL"); setPage(1); }}
-          className="px-3 py-2 rounded-lg text-sm border text-gray-300 outline-none"
-          style={{ background: "#111827", borderColor: "rgba(255,255,255,0.1)" }}
+          className="px-3 py-2 rounded-lg text-sm border text-foreground outline-none"
+          style={{ background: "var(--input)", borderColor: "var(--border)" }}
         >
           <option value="ALL">All Severities</option>
           <option value="HIGH">High</option>
@@ -106,8 +106,8 @@ export function EvidenceExplorerClient({ evidenceItems }: Props) {
         <select
           value={typeFilter}
           onChange={(e) => { setTypeFilter(e.target.value); setPage(1); }}
-          className="px-3 py-2 rounded-lg text-sm border text-gray-300 outline-none"
-          style={{ background: "#111827", borderColor: "rgba(255,255,255,0.1)" }}
+          className="px-3 py-2 rounded-lg text-sm border text-foreground outline-none"
+          style={{ background: "var(--input)", borderColor: "var(--border)" }}
         >
           {types.map((t) => (
             <option key={t} value={t}>
@@ -115,7 +115,7 @@ export function EvidenceExplorerClient({ evidenceItems }: Props) {
             </option>
           ))}
         </select>
-        <span className="text-xs text-gray-500">{filtered.length} results</span>
+        <span className="text-xs text-muted-foreground">{filtered.length} results</span>
       </div>
 
       {/* Evidence list */}
@@ -123,8 +123,10 @@ export function EvidenceExplorerClient({ evidenceItems }: Props) {
         {paginated.map((ev) => (
           <div
             key={ev.id}
-            className="rounded-xl border p-4 hover:bg-white/[0.02] transition-colors cursor-pointer group"
-            style={{ background: "#111827", borderColor: "rgba(255,255,255,0.07)" }}
+            className="rounded-xl border p-4 transition-colors cursor-pointer group"
+            style={{ background: "var(--card)", borderColor: "var(--border)" }}
+            onMouseEnter={(e) => (e.currentTarget.style.background = "var(--hover-row)")}
+            onMouseLeave={(e) => (e.currentTarget.style.background = "var(--card)")}
             onClick={() => router.push(`/entity/${ev.customerId}`)}
           >
             <div className="flex items-start justify-between gap-3">
@@ -133,22 +135,22 @@ export function EvidenceExplorerClient({ evidenceItems }: Props) {
                   <span className={`text-[10px] px-1.5 py-0.5 rounded-full border font-bold ${riskBandBg(ev.severity)}`}>
                     {ev.severity}
                   </span>
-                  <span className="text-[10px] px-1.5 py-0.5 rounded border text-gray-500" style={{ borderColor: "rgba(255,255,255,0.1)" }}>
+                  <span className="text-[10px] px-1.5 py-0.5 rounded border text-muted-foreground" style={{ borderColor: "var(--border)" }}>
                     {TYPE_LABELS[ev.type] ?? ev.type}
                   </span>
-                  <span className="text-sm font-medium text-white">{ev.title}</span>
+                  <span className="text-sm font-medium text-foreground">{ev.title}</span>
                 </div>
-                <p className="text-xs text-gray-500 leading-relaxed line-clamp-2">{ev.description}</p>
+                <p className="text-xs text-muted-foreground leading-relaxed line-clamp-2">{ev.description}</p>
                 <div className="flex items-center gap-3 mt-2">
-                  <span className="font-mono text-[10px] text-blue-400">{ev.customerId}</span>
-                  <span className="text-[10px] text-gray-500">{ev.customerName}</span>
+                  <span className="font-mono text-[10px] text-blue-500">{ev.customerId}</span>
+                  <span className="text-[10px] text-muted-foreground">{ev.customerName}</span>
                   <span className={`text-[10px] px-1.5 py-0.5 rounded-full border font-bold ${riskBandBg(ev.customerBand)}`}>
                     {ev.customerScore} {ev.customerBand}
                   </span>
-                  <span className="ml-auto text-[10px] text-gray-600">{formatDateTime(ev.timestamp)}</span>
+                  <span className="ml-auto text-[10px] text-muted-foreground">{formatDateTime(ev.timestamp)}</span>
                 </div>
               </div>
-              <ExternalLink className="w-4 h-4 text-gray-600 group-hover:text-blue-400 transition-colors shrink-0 mt-1" />
+              <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-blue-400 transition-colors shrink-0 mt-1" />
             </div>
           </div>
         ))}
@@ -157,21 +159,21 @@ export function EvidenceExplorerClient({ evidenceItems }: Props) {
       {/* Pagination */}
       {totalPages > 1 && (
         <div className="flex items-center justify-between pt-2">
-          <span className="text-xs text-gray-500">Page {page} of {totalPages}</span>
+          <span className="text-xs text-muted-foreground">Page {page} of {totalPages}</span>
           <div className="flex gap-2">
             <button
               onClick={() => setPage((p) => Math.max(1, p - 1))}
               disabled={page === 1}
-              className="px-3 py-1.5 text-xs rounded-lg border text-gray-400 hover:text-gray-200 disabled:opacity-40"
-              style={{ borderColor: "rgba(255,255,255,0.1)" }}
+              className="px-3 py-1.5 text-xs rounded-lg border text-muted-foreground hover:text-foreground disabled:opacity-40"
+              style={{ borderColor: "var(--border)" }}
             >
               Previous
             </button>
             <button
               onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
               disabled={page === totalPages}
-              className="px-3 py-1.5 text-xs rounded-lg border text-gray-400 hover:text-gray-200 disabled:opacity-40"
-              style={{ borderColor: "rgba(255,255,255,0.1)" }}
+              className="px-3 py-1.5 text-xs rounded-lg border text-muted-foreground hover:text-foreground disabled:opacity-40"
+              style={{ borderColor: "var(--border)" }}
             >
               Next
             </button>

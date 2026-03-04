@@ -24,10 +24,10 @@ function EvidenceCard({
   return (
     <div
       className="rounded-lg border overflow-hidden"
-      style={{ borderColor: "rgba(255,255,255,0.07)" }}
+      style={{ borderColor: "var(--border)" }}
     >
       <button
-        className="w-full flex items-start gap-3 p-3 text-left hover:bg-white/[0.02] transition-colors"
+        className="w-full flex items-start gap-3 p-3 text-left transition-colors"
         onClick={() => setExpanded((v) => !v)}
       >
         <div className="pt-0.5 shrink-0">
@@ -42,15 +42,15 @@ function EvidenceCard({
             <span className={`text-[10px] px-1.5 py-0.5 rounded-full border font-bold ${riskBandBg(item.severity)}`}>
               {item.severity}
             </span>
-            <span className="text-xs text-gray-300 font-medium leading-tight">{item.title}</span>
+            <span className="text-xs text-foreground font-medium leading-tight">{item.title}</span>
           </div>
           <div className="text-[9px] text-gray-600 mt-1">{formatDateTime(item.timestamp)}</div>
         </div>
       </button>
 
       {expanded && (
-        <div className="px-4 pb-3 space-y-2.5" style={{ borderTop: "1px solid rgba(255,255,255,0.05)" }}>
-          <p className="text-xs text-gray-400 leading-relaxed pt-2">{item.description}</p>
+        <div className="px-4 pb-3 space-y-2.5" style={{ borderTop: "1px solid var(--border)" }}>
+          <p className="text-xs text-muted-foreground leading-relaxed pt-2">{item.description}</p>
 
           {item.relatedNodeIds.length > 0 && (
             <div>
@@ -99,12 +99,12 @@ export function EvidenceList({ evidenceItems, onJumpToNode }: Props) {
   return (
     <div className="p-4 space-y-3">
       <div className="flex items-center justify-between">
-        <span className="text-xs text-gray-500">{evidenceItems.length} evidence items</span>
+        <span className="text-xs text-muted-foreground">{evidenceItems.length} evidence items</span>
         <select
           value={sortBy}
           onChange={(e) => setSortBy(e.target.value as "severity" | "time")}
-          className="text-xs border rounded px-2 py-1 text-gray-400 outline-none"
-          style={{ background: "#1F2937", borderColor: "rgba(255,255,255,0.1)" }}
+          className="text-xs border rounded px-2 py-1 text-muted-foreground outline-none"
+          style={{ background: "var(--input)", borderColor: "var(--border)" }}
         >
           <option value="severity">Sort: Severity</option>
           <option value="time">Sort: Time</option>
