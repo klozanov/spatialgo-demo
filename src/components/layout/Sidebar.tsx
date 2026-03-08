@@ -37,6 +37,8 @@ export function Sidebar() {
   const pathname = usePathname();
   const { theme, toggle } = useTheme();
 
+  if (pathname === "/login") return null;
+
   const isDark = theme === "dark";
 
   return (
