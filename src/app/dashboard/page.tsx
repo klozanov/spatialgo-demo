@@ -73,8 +73,8 @@ export default function DashboardPage() {
     <div className="p-6 space-y-6">
       {/* Header */}
       <div>
-        <h1 className="text-xl font-bold text-white">Investigation Dashboard</h1>
-        <p className="text-sm text-gray-400 mt-1">
+        <h1 className="text-xl font-bold text-foreground">Investigation Dashboard</h1>
+        <p className="text-sm text-muted-foreground mt-1">
           Cross-rail correlation overview — {customers.length} entities · {transactions.length.toLocaleString()} transactions
         </p>
       </div>

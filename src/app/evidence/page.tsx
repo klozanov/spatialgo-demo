@@ -17,8 +17,8 @@ export default function EvidencePage() {
   return (
     <div className="p-6 space-y-6">
       <div>
-        <h1 className="text-xl font-bold text-white">Evidence Explorer</h1>
-        <p className="text-sm text-gray-400 mt-1">
+        <h1 className="text-xl font-bold text-foreground">Evidence Explorer</h1>
+        <p className="text-sm text-muted-foreground mt-1">
           {allEvidence.length} evidence items across all entities — search, filter, and investigate
         </p>
       </div>
