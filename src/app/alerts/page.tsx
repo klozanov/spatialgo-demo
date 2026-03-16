@@ -12,13 +12,16 @@ export default function AlertsPage() {
     const customer = customerById.get(result.customerId);
     if (!customer) continue;
 
+    // Only surface entities with MEDIUM or HIGH overall risk band
+    if (result.band === "LOW") continue;
+
     for (const ev of result.evidenceItems) {
       if (ev.severity === "LOW") continue;
       alerts.push({
         id: ev.id,
         customerId: result.customerId,
         customerName: customer.name,
-        severity: ev.severity,
+        severity: result.band,
         typologyLabels: result.typologies,
         title: ev.title,
         description: ev.description,
@@ -28,11 +31,12 @@ export default function AlertsPage() {
     }
   }
 
-  // Sort: HIGH first, then by timestamp descending
+  // Sort: HIGH first, then by riskScore descending, then by timestamp
   alerts.sort((a, b) => {
     if (a.severity !== b.severity) {
       return a.severity === "HIGH" ? -1 : 1;
     }
+    if (a.riskScore !== b.riskScore) return b.riskScore - a.riskScore;
     return b.timestamp.localeCompare(a.timestamp);
   });
 

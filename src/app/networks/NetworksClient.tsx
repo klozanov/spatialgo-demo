@@ -183,7 +183,7 @@ export function NetworksClient({ networks }: Props) {
         <span className="ml-auto text-xs text-muted-foreground self-center">{filtered.length} shown</span>
       </div>
 
-      <div className="grid grid-cols-2 xl:grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 xl:grid-cols-3 gap-4 items-start">
         {filtered.map((n) => (
           <NetworkCard key={n.id} network={n} />
         ))}

@@ -70,7 +70,8 @@ export function Sidebar() {
         {navItems.map(({ href, label, icon: Icon }) => {
           const isActive =
             pathname === href ||
-            (href !== "/" && pathname.startsWith(href));
+            (href !== "/" && pathname.startsWith(href)) ||
+            (href === "/entities" && pathname.startsWith("/entity/"));
           return (
             <Link
               key={href}
